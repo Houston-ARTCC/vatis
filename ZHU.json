@@ -3481,7 +3481,7 @@
                     "id": "f65d5c36-f48a-4231-a545-cb07a3904020",
                     "name": "SE FLOW VMC (11/20, 20)",
                     "airportConditions": "VISUAL APPS IN USE. ARRS EXPECT RWY 11 EXCEPT ACFT INBD FROM NORTH THRU SOUTHEAST, EXPECT RWY 20. DEPTG RWY 20.",
-                    "notams": "ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
