@@ -1,7 +1,7 @@
 {
   "name": "Austin TRACON",
   "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/AUS.json",
-  "updateSerial": 2025010601,
+  "updateSerial": 2025010650,
   "stations": [
     {
       "id": "062efe99-6845-4b9d-adeb-ae7b61e5d4ce",
@@ -329,7 +329,7 @@
         {
           "id": "eeaf1853-a410-496f-bd96-c9d7561e145d",
           "name": "VMC SOUTH",
-          "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, ^18L. DEPARTING RWY 18R, ^18L. @SIMULAPP IN USE. HELLO!!!!",
+          "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, ^18L. DEPARTING RWY 18R, ^18L. @SIMULAPP IN USE.",
           "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
