@@ -757,37 +757,10 @@
             "notamsBeforeFreeText": false,
             "presets": [
                 {
-                    "id": "4bd13455-fc75-4184-b94c-2e6630bbae60",
-                    "name": "-VISUAL-",
-                    "airportConditions": "**VISUAL APPROACHES LIST, SELECT CONFIGURATION**",
-                    "notams": "",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
                     "id": "eeaf1853-a410-496f-bd96-c9d7561e145d",
-                    "name": "FULL SOUTH",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPROACH RWYS 18R, ^18L. DEPARTING RWYS 18R, ^18L. SIMULAPP IN USE. ",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "e4d1aee3-f769-4a16-9e65-b66ba7f06bc9",
-                    "name": "18R",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPROACH RWY 18R. DEPARTING RWY 18R.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "3e30fbbc-075a-4b21-91a4-b01454e6e4a2",
-                    "name": "18L",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPROACH RWY 18L. DEPARTING RWY 18L.",
+                    "name": "VMC SOUTH",
+                    "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, ^18L. DEPARTING RWY 18R, ^18L. @SIMULAPP IN USE.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -795,35 +768,9 @@
                 },
                 {
                     "id": "56abf256-0b19-4f5b-a14c-b848bbcadb20",
-                    "name": "FULL NORTH",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPROACH RWYS 36R, ^36L. DEPARTING RWY 36R, ^36L. SIMULAPP IN USE. ",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "edab7121-bb78-4602-aca7-d3d84f2d1331",
-                    "name": "36R",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPROACH RWY 36R. DEPARTING RWY 36R.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "cf59008a-abf6-4313-bef4-5e410afcfa96",
-                    "name": "36L",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPROACH RWY 36L. SIMULAPP. DEPARTING RWY 36L.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "40e8c38e-9b8b-49b4-8916-0b19a8ad0980",
-                    "name": "-ILS/RNAV-",
-                    "airportConditions": "**INSTRUMENT APP LIST, SELECT CONFIGURATION**",
+                    "name": "VMC NORTH",
+                    "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 36R, ^36L. DEPARTING RWY 36R, ^36L. @SIMULAPP IN USE. ",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -831,26 +778,9 @@
                 },
                 {
                     "id": "d8459145-9523-448e-b45b-9c34848f586d",
-                    "name": " FULL SOUTH",
-                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWYS 18R, ^18L. DEPARTING 18R, ^18L. SIMULAPP IN USE.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "1adf9691-cb56-4f37-984a-b467172f8733",
-                    "name": " 18R",
-                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 18R. DEPARTING 18R.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "abdec5b6-03f4-4f74-994d-2960bd17cf53",
-                    "name": " 18L",
-                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 18L. DEPARTING 18L.",
+                    "name": "IMC SOUTH",
+                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 18R, ^18L. DEPARTING RWY 18R, ^18L. @SIMULAPP IN USE.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -858,26 +788,9 @@
                 },
                 {
                     "id": "aa63a1e3-12f0-43e7-8f13-69448b5ee520",
-                    "name": " FULL NORTH",
-                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWYS 36R, ^36L. DEPARTING 36R, ^36L. SIMULAPP IN USE.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "22ee7f74-49dd-4f35-98b7-3fcf62755ed3",
-                    "name": " 36R",
-                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 36R. DEPARTING 36R.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "1a9eb6c4-f40f-4a37-b3cc-8dc332ba6dae",
-                    "name": " 36L",
-                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 36L. DEPARTING 36L.",
+                    "name": "IMC NORTH",
+                    "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 36R, ^36L. DEPARTING RWY 36R, ^36L. @SIMULAPP IN USE.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -887,6 +800,7 @@
                     "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e3",
                     "name": "LATE",
                     "airportConditions": "ARRIVALS EXPECT ILS RWY 36R. DEPARTING RWY 18L.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
