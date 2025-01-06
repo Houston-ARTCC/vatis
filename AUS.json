@@ -17,7 +17,7 @@
             "atisFormat": {
                 "observationTime": {
                     "standardUpdateTime": [
-                        53
+                        52
                     ],
                     "template": {
                         "text": "{time}Z",
