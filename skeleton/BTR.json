@@ -1,0 +1,6 @@
+{
+  "name": "Baton Rouge TRACON",
+  "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/BTR.json",
+  "updateSerial": 1970010100,
+  "stations": []
+}

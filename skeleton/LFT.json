@@ -1,0 +1,6 @@
+{
+  "name": "Lafayette TRACON",
+  "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/LFT.json",
+  "updateSerial": 1970010100,
+  "stations": []
+}
