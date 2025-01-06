@@ -329,7 +329,7 @@
         {
           "id": "eeaf1853-a410-496f-bd96-c9d7561e145d",
           "name": "VMC SOUTH",
-          "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, ^18L. DEPARTING RWY 18R, ^18L. @SIMULAPP IN USE.",
+          "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, ^18L. DEPARTING RWY 18R, ^18L. @SIMULAPP IN USE. HELLO!!!",
           "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
