@@ -1,0 +1,6 @@
+{
+  "name": "I90 TRACON",
+  "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/I90.json",
+  "updateSerial": 1970010100,
+  "stations": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Lake Charles TRACON",
+  "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/LCH.json",
+  "updateSerial": 1970010100,
+  "stations": []
+}

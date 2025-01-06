@@ -1,0 +1,6 @@
+{
+  "name": "Victoria ATCT",
+  "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/VCT.json",
+  "updateSerial": 1970010100,
+  "stations": []
+}

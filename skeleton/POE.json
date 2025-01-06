@@ -1,0 +1,6 @@
+{
+  "name": "Polk ARAC",
+  "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/POE.json",
+  "updateSerial": 1970010100,
+  "stations": []
+}
