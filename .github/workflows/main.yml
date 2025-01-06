@@ -1,0 +1,31 @@
+name: Update Serial Number
+
+on: pull_request
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 
+        with:
+          python-version: '3.12'
+      
+      - name: Run Python script
+        run: |
+          cd scripts
+          python update-serial.py
+          cd ..
+      
+      - name: Commit files with new serial
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "GH Action Serial Update"
+          git push
