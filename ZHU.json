@@ -2,7 +2,7 @@
     "name": "ZHU Consolidated",
     "id": "b449ba1a-0266-4db8-93bc-acce3f73e2f4",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/ZHU.json",
-    "updateSerial": 2025010605,
+    "updateSerial": 2025010606,
     "composites": [
         {
             "id": "8fdadc87-2035-4398-9ce8-826f0133d9fd",
@@ -3481,7 +3481,7 @@
                     "id": "f65d5c36-f48a-4231-a545-cb07a3904020",
                     "name": "SE FLOW VMC (11/20, 20)",
                     "airportConditions": "VISUAL APPS IN USE. ARRS EXPECT RWY 11 EXCEPT ACFT INBD FROM NORTH THRU SOUTHEAST, EXPECT RWY 20. DEPTG RWY 20.",
-                    "notams": "ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
