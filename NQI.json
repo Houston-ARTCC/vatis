@@ -1,19 +1,19 @@
 {
-    "name": "Lake Charles TRACON",
-    "id": "8171eead-9fbb-4a9b-9c94-7b28bc8147d6",
-    "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/LCH.json",
-    "updateSerial": 2025011318,
+    "name": "Kingsville RAPCON",
+    "id": "7bf8d468-9b33-4dee-a714-c036fe9ac64f",
+    "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/KINGSVILLE.json",
+    "updateSerial": 2025011300,
     "composites": [
         {
-            "id": "1be7e142-57aa-4203-99a7-7df4ec87204e",
-            "name": "Lake Charles",
-            "identifier": "KLCH",
+            "id": "76ad1c21-4e29-40ca-995d-b11ca2e9d6c1",
+            "name": "Kingsville NAS",
+            "identifier": "KNQI",
             "atisType": "Combined",
             "codeRange": {
                 "low": "A",
                 "high": "Z"
             },
-            "frequency": 118750000,
+            "frequency": 118250000,
             "atisVoice": {
                 "useTextToSpeech": true,
                 "voice": "Default"
@@ -25,41 +25,41 @@
             "notamsBeforeFreeText": false,
             "presets": [
                 {
-                    "id": "e44c592f-8c31-4ed2-82dc-f06164059e94",
-                    "name": "NORTH",
-                    "airportConditions": "@RNAV APCH IN USE. LDG AND DEPTG RWY 33.",
+                    "id": "dbfe961c-c4b5-456c-a87a-7dd6453ab418",
+                    "name": "NORTH VMC",
+                    "airportConditions": "VIS APCHS IN USE. LDG RWY 31R, RWY 35R. DEPTG RWY 31L, RWY 35L. PRACTICE APCHS AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 },
                 {
-                    "id": "6d0d9144-afa4-4b14-a638-bd0084544bd7",
-                    "name": "EAST",
-                    "airportConditions": "@RNAV APCH IN USE. LDG AND DEPTG RWY 5.",
+                    "id": "054d5591-25ff-4265-bf1d-d09b6231d574",
+                    "name": "SOUTH VMC",
+                    "airportConditions": "VIS APCHS IN USE. LDG RWY 13L, RWY 17L. DEPTG RWY 13R, RWY 17R. PRACTICE APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 },
                 {
-                    "id": "c4860c7f-694d-423c-a6be-a92db295ccc2",
-                    "name": "WEST",
-                    "airportConditions": "@RNAV APCH IN US. LDG AND DEPTG RWY 23.",
+                    "id": "466b9784-36b1-4782-86a7-cd3206fe6d2f",
+                    "name": "NORTH IMC",
+                    "airportConditions": "TACAN APCH IN USE. LDG RWY 31R, RWY 35R. DEPTG RWY 31L, RWY 35L.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 },
                 {
-                    "id": "02f7e9ef-211b-476c-bf71-9afac0e19a25",
-                    "name": "STANDARD",
-                    "airportConditions": "*ILS RWY 15 AND @RNAV RWY 5 IN USE. DEPTG RWYS 5, ^15.",
+                    "id": "8c971d7a-43ec-4c6a-849f-934e15c891c1",
+                    "name": "SOUTH IMC",
+                    "airportConditions": "ILS RWY 13R AND TACAN APCH RWY 17L IN USE. DEPTG RWY 13R, RWY 17R. HI ILS APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -76,7 +76,7 @@
             "atisFormat": {
                 "observationTime": {
                     "standardUpdateTime": [
-                        53
+                        56
                     ],
                     "template": {
                         "text": "{time}Z",
@@ -292,78 +292,73 @@
             }
         },
         {
-            "id": "e6fc4af0-c5c8-4193-b3d1-b273a40a3f72",
-            "name": "Chennault Intl",
-            "identifier": "KCWF",
+            "id": "e89d819a-1f20-4d47-a5c3-151343754f36",
+            "name": "Orange Grove NOLF",
+            "identifier": "KNOG",
             "atisType": "Combined",
             "codeRange": {
                 "low": "A",
                 "high": "Z"
             },
-            "frequency": 120000000,
+            "frequency": 118350000,
             "atisVoice": {
                 "useTextToSpeech": false,
                 "voice": "Default"
             },
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "airportConditionsBeforeFreeText": false,
             "notamsBeforeFreeText": false,
             "presets": [
                 {
-                    "id": "2a371366-6d64-4e73-b696-9f88b08925e8",
+                    "id": "51a52e21-3215-4ed8-8fe6-d378c89bf70a",
+                    "name": "NORTH VMC",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 1, RWY 31.",
+                    "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "bd812dd8-037a-4ea8-84e4-b91b613065bc",
+                    "name": "SOUTH VMC",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13, RWY 19.",
+                    "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "92e5ae0c-1124-4bea-b61b-d3d77f305ac0",
                     "name": "NORTH IMC",
-                    "airportConditions": "ARRS EXPECT @RNAV RWY 33 APCH. DEPTG RWY 33.",
-                    "notams": "CHENNAULT AIRPORT MAY BE CONFUSED FOR LAKE CHARLES REGIONAL LOCATED 6 MILES SOUTHWEST. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "airportConditions": "TACAN RWY 31 APCH IN USE. DEPTG RWY 1, RWY 31.",
+                    "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 },
                 {
-                    "id": "88d17e99-1200-46b6-8863-0087a284dd40",
+                    "id": "2032f6e7-0d29-4c3a-8aa3-73f8f7cb85cb",
                     "name": "SOUTH IMC",
-                    "airportConditions": "ARRS EXPECT *ILS OR @RNAV RWY 15 APCH. DEPTG RWY 15.",
-                    "notams": "CHENNAULT AIRPORT MAY BE CONFUSED FOR LAKE CHARLES REGIONAL LOCATED 6 MILES SOUTHWEST. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "29ae1098-d5be-4459-8081-ae25c784dc2c",
-                    "name": "NORTH VISUAL",
-                    "airportConditions": "ARRS EXPECT VIS APCH RWY 33. DEPTG RWY 33.",
-                    "notams": "CHENNAULT AIRPORT MAY BE CONFUSED FOR LAKE CHARLES REGIONAL LOCATED 6 MILES SOUTHWEST. BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "bacff01a-0a0a-452d-8361-bfda229efe6b",
-                    "name": "SOUTH VISUAL",
-                    "airportConditions": "ARRS EXPECT VIS APCH RWY 15. DEPTG RWY 15.",
-                    "notams": "CHENNAULT AIRPORT MAY BE CONFUSED FOR LAKE CHARLES REGIONAL LOCATED 6 MILES SOUTHWEST. BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "airportConditions": "ILS AND TACAN RWY 13 APCHS IN USE. LDG AND DEPTG RWY 1, RWY 13. HI ILS APCH AVAILBLE UPON REQUEST.",
+                    "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 }
             ],
-            "contractions": [
-                {
-                    "string": "RNAV",
-                    "spoken": "R NAV"
-                }
-            ],
+            "contractions": [],
             "airportConditionDefinitions": [],
             "notamDefinitions": [],
             "atisFormat": {
                 "observationTime": {
                     "standardUpdateTime": [
-                        45
+                        56
                     ],
                     "template": {
                         "text": "{time}Z",
@@ -459,8 +454,7 @@
                         "SQ": "squalls",
                         "FC": "funnel cloud tornado waterspout",
                         "SS": "sandstorm",
-                        "DS": "dust storm",
-                        "RABR": "rain with mist"
+                        "DS": "dust storm"
                     },
                     "weatherDescriptors": {
                         "PR": "partial",
