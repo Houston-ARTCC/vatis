@@ -331,8 +331,8 @@
                 {
                     "id": "c964db80-d695-491b-9c69-717a9f748808",
                     "name": "13 VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG RWY 13L, ^13C. DEPTG RWY 13C, ^13R. PRACTICE INSTRUMENT APCHS AVBL UPON REQUEST.",
-                    "notams": "DEPTG *VFR ACFT ADVS DRCTN OF FLT ON INITIAL CTC. DEPARTURES REQUESTING NON NORMAL CLIMBOUT REQUEST ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCHS IN USE. LDG RWY 13L, RWY 13C. DEPTG RWY 13C, RWY 13R. PRACTICE INSTRUMENT APCHS AVBL UPON REQUEST.",
+                    "notams": "DEPTG VFR ACFT ADVS DRCTN OF FLT ON INITIAL CTC. DEPS REQUESTING NON-STANDARD CLIMBOUT, MAKE RQST ON INITIAL CTC. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -341,8 +341,8 @@
                 {
                     "id": "a5dd4e9d-d686-4c0d-8878-f4c1f71759bc",
                     "name": "31 VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG RWY 31C, ^31R. DEPTG RWY 31C, ^31L. PRACTICE INSTRUMENT APCHS AVBL UPON REQUEST.",
-                    "notams": "DEPTG *VFR ACFT ADVS DRCTN OF FLT ON INITIAL CTC. DEPARTURES REQUESTING NON NORMAL CLIMBOUT REQUEST ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCHS IN USE. LDG RWY 31C, RWY 31R. DEPTG RWY 31C, RWY 31L. PRACTICE INSTRUMENT APCHS AVBL UPON REQUEST.",
+                    "notams": "DEPTG VFR ACFT ADVS DRCTN OF FLT ON INITIAL CTC. DEPS REQUESTING NON-STANDARD CLIMBOUT, MAKE RQST ON INITIAL CTC. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -351,7 +351,7 @@
                 {
                     "id": "f13f1168-f0f5-49fa-9814-17ee86e4abe4",
                     "name": "13 IMC",
-                    "airportConditions": "*ILS AND @RNAV RWY 13C APCH IN USE. DEPTG RWY 13C, ^13R. HI *ILS AND *VOR APCH AVBL UPON RQST.",
+                    "airportConditions": "ILS AND @RNAV RWY 13C APCH IN USE. DEPTG RWY 13C, RWY 13R. HI ILS AND VOR APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -361,7 +361,7 @@
                 {
                     "id": "b25c1207-ad9d-42ed-b1d6-ea2efc6dd8a3",
                     "name": "31 IMC",
-                    "airportConditions": "*ILS AND @RNAV RWY 31C APCH IN USE. DEPTG RWY 31L, ^31C. HI *ILS AND *VOR APCH AVBL UPON RQST.",
+                    "airportConditions": "ILS AND @RNAV RWY 31C APCH IN USE. DEPTG RWY 31L, RWY 31C. HI ILS AND VOR APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
