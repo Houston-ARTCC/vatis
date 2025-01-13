@@ -153,6 +153,16 @@
                     "externalGenerator": {
                         "enabled": false
                     }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
+                    "notams": "ALL ACFT TAXI WITH TRANSPONDER ON. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
                 }
             ],
             "contractions": [
@@ -488,6 +498,16 @@
                     "externalGenerator": {
                         "enabled": false
                     }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
+                    "notams": "ALL ACFT TAXI WITH TRANSPONDER ON.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
                 }
             ],
             "contractions": [
@@ -808,6 +828,16 @@
                     "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e3",
                     "name": "LATE",
                     "airportConditions": "ARRIVALS EXPECT ILS RWY 36R. DEPARTING RWY 18L.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -3636,6 +3666,16 @@
                     "externalGenerator": {
                         "enabled": false
                     }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
+                    "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
                 }
             ],
             "contractions": [
@@ -4278,6 +4318,16 @@
                     "id": "bb5f2f6f-37cf-4bf2-b691-d441f570d3a7",
                     "name": "WEST VISUALS",
                     "airportConditions": "ARRIVALS EXPECT VISUAL APPRS RWY 31L, RWY 31R. @SIMULAPP IN USE. DEPTG RWY 31L AT INT N.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {

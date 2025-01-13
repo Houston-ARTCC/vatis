@@ -153,6 +153,16 @@
                     "externalGenerator": {
                         "enabled": false
                     }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
+                    "notams": "ALL ACFT TAXI WITH TRANSPONDER ON. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
                 }
             ],
             "contractions": [
@@ -485,6 +495,16 @@
                     "airportConditions": "ARRS FROM WEST EXP RWY 8R, ARRS FROM EAST EXP RWY 27. DEPTG RWY 8R, RWY 27.",
                     "notams": "ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
+                    "notams": "ALL ACFT TAXI WITH TRANSPONDER ON.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
