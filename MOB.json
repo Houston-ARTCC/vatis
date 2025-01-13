@@ -2,7 +2,7 @@
     "name": "Mobile TRACON",
     "id": "31c87e8a-bb15-47e3-a1d7-5aae8cd10f83",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/MOB.json",
-    "updateSerial": 2025011300,
+    "updateSerial": 2025011301,
     "composites": [
         {
             "id": "7d40afd6-67d4-4589-bb99-9dd179634d26",
