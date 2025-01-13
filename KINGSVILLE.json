@@ -27,7 +27,7 @@
                 {
                     "id": "dbfe961c-c4b5-456c-a87a-7dd6453ab418",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCH IN USE. LDG RWY 31R, ^35R. DEPTG RWY 31L, ^35L. PRACTICE APCHS AVBL UPON RQST.",
+                    "airportConditions": "VIS APCHS IN USE. LDG RWY 31R, RWY 35R. DEPTG RWY 31L, RWY 35L. PRACTICE APCHS AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -37,7 +37,7 @@
                 {
                     "id": "054d5591-25ff-4265-bf1d-d09b6231d574",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCH IN USE. LDG RWY 13L, ^17L. DEPTG RWY 13R, ^17R. PRACTICE APCH AVBL UPON RQST.",
+                    "airportConditions": "VIS APCHS IN USE. LDG RWY 13L, RWY 17L. DEPTG RWY 13R, RWY 17R. PRACTICE APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -47,7 +47,7 @@
                 {
                     "id": "466b9784-36b1-4782-86a7-cd3206fe6d2f",
                     "name": "NORTH IMC",
-                    "airportConditions": "TACAN APCH IN USE. LDG RWY 31R, ^35R. DEPTG RWY 31L, ^35L.",
+                    "airportConditions": "TACAN APCH IN USE. LDG RWY 31R, RWY 35R. DEPTG RWY 31L, RWY 35L.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -57,7 +57,7 @@
                 {
                     "id": "8c971d7a-43ec-4c6a-849f-934e15c891c1",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS RWY 13R AND TACAN APCH RWY 17L IN USE. DEPTG RWY 13R, ^17R. HI *ILS APCH AVBL UPON RQST.",
+                    "airportConditions": "ILS RWY 13R AND TACAN APCH RWY 17L IN USE. DEPTG RWY 13R, RWY 17R. HI ILS APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -314,7 +314,7 @@
                 {
                     "id": "51a52e21-3215-4ed8-8fe6-d378c89bf70a",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 1, ^31.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 1, RWY 31.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -324,7 +324,7 @@
                 {
                     "id": "bd812dd8-037a-4ea8-84e4-b91b613065bc",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 13, ^19.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13, RWY 19.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -334,7 +334,7 @@
                 {
                     "id": "92e5ae0c-1124-4bea-b61b-d3d77f305ac0",
                     "name": "NORTH IMC",
-                    "airportConditions": "TACAN RWY 31 APCH IN USE. DEPTG RWY 1, ^31.",
+                    "airportConditions": "TACAN RWY 31 APCH IN USE. DEPTG RWY 1, RWY 31.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -344,7 +344,7 @@
                 {
                     "id": "2032f6e7-0d29-4c3a-8aa3-73f8f7cb85cb",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS AND TACAN RWY 13 APCH IN USE. LDG AND DEPTG RWY 1, ^13. HI *ILS APCH AVAILBLE UPON REQUEST.",
+                    "airportConditions": "ILS AND TACAN RWY 13 APCHS IN USE. LDG AND DEPTG RWY 1, RWY 13. HI ILS APCH AVAILBLE UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
