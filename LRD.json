@@ -2,7 +2,7 @@
     "name": "Laredo ATCT",
     "id": "0e81e9ef-c34a-457e-ad26-7afaef113f87",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/LRD.json",
-    "updateSerial": 2025011305,
+    "updateSerial": 2025011306,
     "composites": [
         {
             "id": "d39234d3-759b-4372-bc7d-60c355ae544c",
