@@ -2,7 +2,7 @@
     "name": "I90 TRACON",
     "id": "939efdda-1bd6-4e5e-9532-b58133d23db6",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/I90.json",
-    "updateSerial": 2025011318,
+    "updateSerial": 2025011319,
     "composites": [
         {
             "id": "8fdadc87-2035-4398-9ce8-826f0133d9fd",
