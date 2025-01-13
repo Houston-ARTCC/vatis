@@ -27,7 +27,7 @@
                 {
                     "id": "86b26d63-fc25-49fd-8dbd-4c98f8ab7f0d",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 36L, ^36R.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 36L, RWY 36R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -37,7 +37,7 @@
                 {
                     "id": "cac2f497-388f-4aa9-9f82-05226095c5df",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 18L, ^18R.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 18L, RWY 18R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -47,7 +47,7 @@
                 {
                     "id": "5cf49576-9d70-4ef3-96c9-86bf11d15ae6",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV AND LOC BC RWY 36L IN USE. LDG AND DEPTG RWY 36L, ^36R.",
+                    "airportConditions": "@RNAV AND LOC BC RWY 36L IN USE. LDG AND DEPTG RWY 36L, RWY 36R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -57,7 +57,7 @@
                 {
                     "id": "cb2e3df7-2ae9-4e5f-bb59-a55238b5bbb6",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS RWY 18R AND @RNAV RWY 18L APCHS IN USE. DEPTG RWY 18L, ^18R.",
+                    "airportConditions": "ILS RWY 18R AND @RNAV RWY 18L APCHS IN USE. DEPTG RWY 18L, RWY 18R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
