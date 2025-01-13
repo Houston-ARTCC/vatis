@@ -27,8 +27,8 @@
                 {
                     "id": "328e3014-4763-4020-919b-c8ba66ee82f0",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS 04L, ^04R, ^11.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 4L, RWY 4R, RWY 11.",
+                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -37,8 +37,8 @@
                 {
                     "id": "96b3861a-a37d-4a7e-9c29-7f07bff3812a",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWYS 22L, ^22R, ^29.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 22L, RWY 22R, RWY 29.",
+                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -48,7 +48,7 @@
                     "id": "3c76f2e8-9b3d-40ee-8e8a-96a6ee6c647f",
                     "name": "EAST VMC",
                     "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 11.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -57,8 +57,8 @@
                 {
                     "id": "520b3314-c0fa-465f-b834-f97c89b4045f",
                     "name": "WEST VMC",
-                    "airportConditions": "*VIS APCH IN USE. LDG AND DEPTG RWY 29.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 29.",
+                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -67,7 +67,7 @@
                 {
                     "id": "a915df47-d337-4c56-87a1-931df8798150",
                     "name": "NORTH IMC",
-                    "airportConditions": "*ILS AND @RNAV RWY 4R APCH IN USE. DEPTG RWYS 04L, ^04R, ^11.",
+                    "airportConditions": "ILS AND @RNAV RWY 4R APCH IN USE. DEPTG RWY 4L, RWY 4R, RWY 11.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -77,7 +77,7 @@
                 {
                     "id": "5ea29fc8-b754-4d59-b27a-764e54598db2",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS AND @RNAV RWY 22L APCH IN USE. DEPTG RWYS 22L, ^22R, ^29.",
+                    "airportConditions": "ILS AND @RNAV RWY 22L APCH IN USE. DEPTG RWY 22L, RWY 22R, RWY 29.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
