@@ -2,7 +2,7 @@
     "name": "Valley TRACON",
     "id": "d37bec0f-71c4-45f5-aba2-57bc14683a17",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/VLY.json",
-    "updateSerial": 2025011300,
+    "updateSerial": 2025011301,
     "composites": [
         {
             "id": "557d60c4-b08a-4a18-9ff6-b37e6434d616",
