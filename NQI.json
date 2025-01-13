@@ -302,7 +302,7 @@
             },
             "frequency": 118350000,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "idsEndpoint": "",

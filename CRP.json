@@ -1086,7 +1086,7 @@
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "presets": [
@@ -1490,7 +1490,7 @@
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "presets": [
@@ -1909,7 +1909,7 @@
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "presets": [

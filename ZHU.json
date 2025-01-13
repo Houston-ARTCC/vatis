@@ -4588,7 +4588,7 @@
             },
             "frequency": 124850000,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "idsEndpoint": "https://zhuartcc.org/api/vatis/",
@@ -4915,7 +4915,7 @@
             },
             "frequency": 125775000,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "idsEndpoint": "https://zhuartcc.org/api/vatis/",
