@@ -6,7 +6,7 @@
     "composites": [
         {
             "id": "20660354-ff66-43e2-89a6-63c8a7ee77a9",
-            "name": "Corpus Christi Naval Air Station",
+            "name": "Corpus Christi NAS",
             "identifier": "KNGP",
             "atisType": "Combined",
             "codeRange": {
@@ -26,8 +26,8 @@
             "presets": [
                 {
                     "id": "ebfd2c29-f32a-43d1-b47f-45c880bf9c9f",
-                    "name": "NORTH WEST VISUAL",
-                    "airportConditions": "LDG AND DEPTG RWY 31L, ^31R. VIS APCH IN USE.",
+                    "name": "NW VISUAL",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 31L, RWY 31R.",
                     "notams": "RWY 13R, ^31L CLOSED SUNDAYS. AVOID FLIGHT OVER POPULATED AREAS BELOW 1000 FEET AGL PRIOR TO GULF SHORE LINE. CORPUS CHRISTI INTL ARPT (PUBLIC ARPT) LOCATED 12 MILES NW OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI NAVAL AIR STATION.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -36,8 +36,8 @@
                 },
                 {
                     "id": "294f5769-1dff-4d59-9747-6f4a39db44ce",
-                    "name": "SOUTH EAST VISUAL",
-                    "airportConditions": "LANDING AND DEPARTING RUNWAY 13L AND 13R. VISUAL APPROACH IN USE.",
+                    "name": "SE VISUAL",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 13L, RWY 13R.",
                     "notams": "RUNWAY 13R AND 31L CLOSED SUNDAYS. AVOID FLT OVER POPULATED AREAS BELOW 1000 FEET AGL PRIOR TO GULF SHORE LINE. CORPUS CHRISTI INTL ARPT (PUBLIC ARPT) LOCATED 12 MILES NW OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI NAVAL AIR STATION.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -46,8 +46,8 @@
                 },
                 {
                     "id": "fb61b125-0180-415a-aa3d-93e5713d5adb",
-                    "name": "NORTH WEST ILS",
-                    "airportConditions": "LDG AND DEPTG RWY 31L, ^31R. *ILS APCH IN USE. TACAN AND @RNAV AVAILABLE ON REQUEST.",
+                    "name": "NW ILS",
+                    "airportConditions": "ILS APCHS IN USE. LDG AND DEPTG RWY 31L, RWY 31R. TACAN AND @RNAV APCHS AVBL ON RQST.",
                     "notams": "RWY 13R, ^31L CLOSED SUNDAYS. AVOID FLT OVER POPULATED AREAS BELOW 1000 FEET AGL PRIOR TO GULF SHORE LINE. CORPUS CHRISTI INTL ARPT (PUBLIC ARPT) LOCATED 12 MILES NW OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI NAVAL AIR STATION.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -56,8 +56,8 @@
                 },
                 {
                     "id": "98363e3b-3e89-4f4e-b878-1d928309054e",
-                    "name": "SOUTH EAST ILS",
-                    "airportConditions": "LDG AND DEPTG RWY 13L, ^13R. *ILS APCH IN USE. TACAN AND @RNAV AVAILABLE ON REQUEST.",
+                    "name": "SE ILS",
+                    "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 13L, ^13R. TACAN AND @RNAV APCHS AVBL ON RQST.",
                     "notams": "RWY 13R, ^31L CLOSED SUNDAYS. AVOID FLT OVER POPULATED AREAS BELOW 1000 FEET AGL PRIOR TO GULF SHORE LINE. CORPUS CHRISTI INTL ARPT (PUBLIC ARPT) LOCATED 12 MILES NW OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI NAVAL AIR STATION.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -67,7 +67,7 @@
                 {
                     "id": "e1ea4da0-c83d-4c2e-8ab4-daa5525b930d",
                     "name": "NORTH TACAN",
-                    "airportConditions": "LDG AND DEPTG RWY 36. TACAN APCH IN USE. @RNAV AND VIS APCH AVAILABLE ON REQUEST.",
+                    "airportConditions": "TACAN APCH IN USE. LDG AND DEPTG RWY 36. @RNAV AND VIS APCHS AVBL ON RQST.",
                     "notams": "RWY 13R, ^31L CLOSED SUNDAYS. AVOID FLT OVER POPULATED AREAS BELOW 100 FEET' AGL PRIOR TO GULF SHORE LINE. CORPUS CHRISTI INTL ARPT (PUBLIC ARPT) LOCATED 12 MILES NW OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI NAVAL AIR STATION.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -77,7 +77,7 @@
                 {
                     "id": "5248313e-68a8-400d-b131-6db03cbd21e3",
                     "name": "SOUTH TACAN",
-                    "airportConditions": "LDG AND DEPTG RWY 18. TACAN APCH IN USE. @RNAV AND VIS APCH AVAILABLE ON REQUEST.",
+                    "airportConditions": "TACAN APCH IN USE. LDG AND DEPTG RWY 18. @RNAV AND VIS APCHS AVBL ON REQUEST.",
                     "notams": "RWY 13R, ^31L CLOSED SUNDAYS. AVOID FLT OVER POPULATED AREAS BELOW 1000 FEET AGL PRIOR TO GULF SHORE LINE. CORPUS CHRISTI INTL ARPT (PUBLIC ARPT) LOCATED 12 MILES NW OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI NAVAL AIR STATION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -308,7 +308,7 @@
         },
         {
             "id": "0039e83e-fa17-474c-8fc0-1bd58f5eff69",
-            "name": "Corpus Christi",
+            "name": "Corpus Christi Intl",
             "identifier": "KCRP",
             "atisType": "Combined",
             "codeRange": {
@@ -329,8 +329,8 @@
                 {
                     "id": "ab44c726-774d-486c-915f-8d36a13580a4",
                     "name": "NORTH VMC",
-                    "airportConditions": "LDG AND DEPTG RWY 31, ^RWY 36. VIS APCH IN USE. *RWNP APCH AVBL UPON RQST.",
-                    "notams": "CUDDIHY FIELD IS LOCATED 4 MILES SOUTH OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. CABANISS FIELD LOCATED 5 MILES SE OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. *VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS. ",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 31, RWY 36. @RNAV APCH AVBL ON RQST.",
+                    "notams": "CUDDIHY FIELD IS LOCATED 4 MILES SOUTH OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. CABANISS FIELD LOCATED 5 MILES SE OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS. ",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -339,8 +339,8 @@
                 {
                     "id": "0e967c4f-9766-467f-8d1d-c7d34af22dc4",
                     "name": "SOUTH VMC",
-                    "airportConditions": "LDG AND DEPTG RWY 13, ^18. VIS APCH IN USE. *RNP APCH AVBL UPON RQST.",
-                    "notams": "CUDDIHY FIELD IS LOCATED 4 MILES SOUTH OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. CABANISS FIELD LOCATED 5 MILES SE OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. *VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS. ",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 13, RWY 18. @RNAV APCH AVBL UPON RQST.",
+                    "notams": "CUDDIHY FIELD IS LOCATED 4 MILES SOUTH OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. CABANISS FIELD LOCATED 5 MILES SE OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS. ",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -349,7 +349,7 @@
                 {
                     "id": "b98489ee-1cbb-49ae-938d-4ff92e9ce2a4",
                     "name": "NORTH IMC",
-                    "airportConditions": "*ILS RWY 36 AND @RNAV RWY 31 APCH IN USE. DEPTG RWY 31, ^36. ",
+                    "airportConditions": "ILS RWY 36 AND @RNAV RWY 31 APCHS IN USE. DEPTG RWY 31, RWY 36.",
                     "notams": "CUDDIHY FIELD IS LOCATED 4 MILES SOUTH OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. CABANISS FIELD LOCATED 5 MILES SE OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS. ",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -359,7 +359,7 @@
                 {
                     "id": "296451b1-1065-4d9e-b1f0-438408e193ee",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS RWY 13 AND @RNAV RWY 18 APCH IN USE. DEPTG RWY 13, ^18. ",
+                    "airportConditions": "ILS RWY 13 AND @RNAV RWY 18 APCHS IN USE. DEPTG RWY 13, RWY 18. ",
                     "notams": "CUDDIHY FIELD IS LOCATED 4 MILES SOUTH OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. CABANISS FIELD LCTD 5 MILES SE OF ARPT MAY BE MISTAKEN FOR CORPUS CHRISTI INTL ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS. ",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -367,7 +367,13 @@
                     }
                 }
             ],
-            "contractions": [],
+            "contractions": [
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "R NAV"
+                }
+            ],
             "airportConditionDefinitions": [],
             "notamDefinitions": [],
             "atisFormat": {
