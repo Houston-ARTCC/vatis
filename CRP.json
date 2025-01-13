@@ -3,7 +3,7 @@
     "name": "Corpus/Valley TRACON",
     "id": "a8e30163-7788-4a32-869f-b04101352448",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/CRP.json",
-    "updateSerial": 2025011313,
+    "updateSerial": 2025011314,
     "stations": [
         {
             "id": "20660354-ff66-43e2-89a6-63c8a7ee77a9",
@@ -1086,7 +1086,7 @@
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "presets": [
@@ -1490,7 +1490,7 @@
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "presets": [
@@ -1909,7 +1909,7 @@
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
-                "useTextToSpeech": false,
+                "useTextToSpeech": true,
                 "voice": "Default"
             },
             "presets": [
