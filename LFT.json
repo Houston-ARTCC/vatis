@@ -3,7 +3,7 @@
     "name": "Lafayette TRACON",
     "id": "c9654435-f3ed-4271-b50f-62f2894ac6b9",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/LFT.json",
-    "updateSerial": 2025011308,
+    "updateSerial": 2025011309,
     "stations": [
         {
             "id": "38a3427e-1bf6-4e8f-b685-2324d856fbb7",
