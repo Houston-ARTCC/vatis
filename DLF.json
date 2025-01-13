@@ -3,7 +3,7 @@
     "name": "Laughlin RAPCON",
     "id": "9c002682-d438-44ef-8afd-6324c5e7ebc3",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/DLF.json",
-    "updateSerial": 2025011304,
+    "updateSerial": 2025011305,
     "stations": [
         {
             "id": "f98c325b-5973-4abb-9ba1-377650ca1c1b",
