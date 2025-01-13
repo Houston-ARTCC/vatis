@@ -27,8 +27,8 @@
                 {
                     "id": "c1ee48f8-3813-4b3d-ab48-45c3cb0b293d",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 33, ^36.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 33, RWY 36.",
+                    "notams": "VFR DEPS ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -37,8 +37,8 @@
                 {
                     "id": "627eba5b-a2c3-4d18-93d7-f012438d0f20",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 15, ^18.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 15, RWY 18.",
+                    "notams": "VFR DEPS ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -47,7 +47,7 @@
                 {
                     "id": "db39c7b8-b53d-4984-a31d-40c87182c4c6",
                     "name": "NORTH IMC",
-                    "airportConditions": "*ILS RWY 33 APCH IN USE. DEPTG RWY 33, ^36. @RNAV APCHS AVAILABLE UPON REQUEST. ",
+                    "airportConditions": "ILS RWY 33 APCH IN USE. DEPTG RWY 33, RWY 36. @RNAV APCHS AVAILABLE UPON REQUEST. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -57,7 +57,7 @@
                 {
                     "id": "64b3fd1b-1a2d-4120-8fa9-961658a93d27",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS RWY 15 APCH IN USE. DEPTG RWY 15, ^18. @RNAV APCHS AVAILABLE UPON REQUEST. ",
+                    "airportConditions": "ILS RWY 15 APCH IN USE. DEPTG RWY 15, RWY 18. @RNAV APCHS AVAILABLE UPON REQUEST. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -314,8 +314,8 @@
                 {
                     "id": "816f13fb-e5ec-4408-91b1-34bfdd2e08ca",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32, ^36.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32, RWY 36.",
+                    "notams": "VFR DEPS ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -324,8 +324,8 @@
                 {
                     "id": "5abff1fd-867a-4282-9748-9e3dc7e6b97a",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14, ^18.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14, RWY 18.",
+                    "notams": "VFR DEPS ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -334,7 +334,7 @@
                 {
                     "id": "7f6ac7b9-16a1-4345-90c1-cfeda86fad74",
                     "name": "NORTH IMC",
-                    "airportConditions": "*ILS 32 AND @RNAV RWY 36 APCH IN USE. LDG AND DEPTG RWY 32, ^36. *VOR APCH AVAILABLE UPON REQUEST.",
+                    "airportConditions": "ILS RWY 32 AND @RNAV RWY 36 APCHS IN USE. LDG AND DEPTG RWY 32, RWY 36. VOR APCH AVAILABLE UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -344,7 +344,7 @@
                 {
                     "id": "7a659fc8-519d-49f0-9083-701043bbc25f",
                     "name": "SOUTH IMC",
-                    "airportConditions": "@RNAV RWY 32, ^36 APP IN USE. LDG AND DEPTG RWY 32, ^36. *VOR APCH AVAILABLE UPON REQUEST.",
+                    "airportConditions": "@RNAV RWY 32, @RNAV RWY 36 APCHS IN USE. LDG AND DEPTG RWY 32, RWY 36. VOR APCH AVAILABLE UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -602,7 +602,7 @@
                     "id": "f632dd0d-a682-4033-92a5-385f5b45aa98",
                     "name": "NORTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "VFR DEPS ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -612,7 +612,7 @@
                     "id": "23da0066-296d-4b0d-ad42-59f55bd2a014",
                     "name": "SOUTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
-                    "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "VFR DEPS ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -631,7 +631,7 @@
                 {
                     "id": "bc55dd86-098b-4998-8cca-f0c078e824b1",
                     "name": "SOUTH IMC",
-                    "airportConditions": "*ILS APCH IN USE. LDG AND DEPTG RWY 17.",
+                    "airportConditions": "ILS APCH IN USE. LDG AND DEPTG RWY 17.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
