@@ -27,7 +27,7 @@
                 {
                     "id": "e44c592f-8c31-4ed2-82dc-f06164059e94",
                     "name": "NORTH",
-                    "airportConditions": "LDG AND DEPTG RWY 33. @RNAV APP IN USE.",
+                    "airportConditions": "@RNAV APCH IN USE. LDG AND DEPTG RWY 33.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
