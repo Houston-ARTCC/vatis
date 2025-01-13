@@ -289,7 +289,7 @@
         },
         {
             "id": "ffdd4505-67e6-4204-a2e4-42369033384a",
-            "name": "Alexandria AWOS",
+            "name": "Alexandria ASOS",
             "identifier": "KAEX",
             "atisType": "Combined",
             "codeRange": {
@@ -309,7 +309,7 @@
             "presets": [
                 {
                     "id": "0e0bf5e2-704f-4ea0-9feb-50b53cc48cdd",
-                    "name": "AWOS",
+                    "name": "ASOS",
                     "template": "[FACILITY] WEATHER OBSERVATION TIME [OBS_TIME]. [FULL_WX_STRING]. [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
