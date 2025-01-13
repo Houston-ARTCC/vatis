@@ -3,7 +3,7 @@
     "name": "Austin TRACON",
     "id": "e6e1a708-224e-4cb2-b4cb-bd8e2b0bcd8a",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/AUS.json",
-    "updateSerial": 2025011321,
+    "updateSerial": 2025011322,
     "stations": [
         {
             "id": "062efe99-6845-4b9d-adeb-ae7b61e5d4ce",
@@ -372,6 +372,16 @@
                     "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e3",
                     "name": "LATE",
                     "airportConditions": "ARRIVALS EXPECT ILS RWY 36R. DEPARTING RWY 18L.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e4",
+                    "name": "D-ATIS",
+                    "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
