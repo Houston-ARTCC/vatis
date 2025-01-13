@@ -2,7 +2,7 @@
     "name": "Lake Charles TRACON",
     "id": "8171eead-9fbb-4a9b-9c94-7b28bc8147d6",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/LCH.json",
-    "updateSerial": 2025011305,
+    "updateSerial": 2025011306,
     "composites": [
         {
             "id": "1be7e142-57aa-4203-99a7-7df4ec87204e",

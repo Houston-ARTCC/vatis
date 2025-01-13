@@ -3,7 +3,7 @@
     "name": "Austin TRACON",
     "id": "e6e1a708-224e-4cb2-b4cb-bd8e2b0bcd8a",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/AUS.json",
-    "updateSerial": 2025011307,
+    "updateSerial": 2025011308,
     "stations": [
         {
             "id": "062efe99-6845-4b9d-adeb-ae7b61e5d4ce",

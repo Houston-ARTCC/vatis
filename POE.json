@@ -2,11 +2,11 @@
     "name": "Polk RAPCON",
     "id": "6bdc9f35-aaab-4fc3-b42e-73f181a7272c",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/POE.json",
-    "updateSerial": 2025011301,
+    "updateSerial": 2025011302,
     "composites": [
         {
             "id": "b9f38b11-9e8c-4b49-bbf9-027fca9425cb",
-            "name": "Macks AAF",
+            "name": "Maks AAF",
             "identifier": "KPOE",
             "atisType": "Combined",
             "codeRange": {
@@ -289,7 +289,7 @@
         },
         {
             "id": "ffdd4505-67e6-4204-a2e4-42369033384a",
-            "name": "Alexandria ASOS",
+            "name": "Alexandria Intl",
             "identifier": "KAEX",
             "atisType": "Combined",
             "codeRange": {
