@@ -330,18 +330,8 @@
             "presets": [
                 {
                     "id": "eeaf1853-a410-496f-bd96-c9d7561e145d",
-                    "name": "VMC SOUTH",
-                    "airportConditions": "ARRS EXP VIS APCH RWY 18R, RWY 18L. DEPTG RWY 18R, RWY 18L. @SIMULAPP IN USE.",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "56abf256-0b19-4f5b-a14c-b848bbcadb20",
-                    "name": "VMC NORTH",
-                    "airportConditions": "ARRS EXP VIS APCH RWY 36R, RWY 36L. DEPTG RWY 36R, RWY 36L. @SIMULAPP IN USE. ",
+                    "name": "SOUTH VISUAL",
+                    "airportConditions": "ARRS EXP VIS APCHS RWY 18L, RWY 18R. DEPTG RWY 18L, RWY 18R. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -350,8 +340,18 @@
                 },
                 {
                     "id": "d8459145-9523-448e-b45b-9c34848f586d",
-                    "name": "IMC SOUTH",
-                    "airportConditions": "ARRS EXP ILS APCH RWY 18R, RWY 18L. DEPTG RWY 18R, RWY 18L. @SIMULAPP IN USE.",
+                    "name": "SOUTH ILS",
+                    "airportConditions": "ARRS EXP ILS RWY 18L APCH, ILS RWY 18R APCH. DEPTG RWY 18L, RWY 18R. @SIMULAPP IN USE.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "56abf256-0b19-4f5b-a14c-b848bbcadb20",
+                    "name": "NORTH VISUAL",
+                    "airportConditions": "ARRS EXP VIS APCHS RWY 36R, RWY 36L. DEPTG RWY 36R, RWY 36L. @SIMULAPP IN USE. ",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -360,18 +360,8 @@
                 },
                 {
                     "id": "aa63a1e3-12f0-43e7-8f13-69448b5ee520",
-                    "name": "IMC NORTH",
-                    "airportConditions": "ARRS EXP ILS APCH RWY 36R, RWY 36L. DEPTG RWY 36R, RWY 36L. @SIMULAPP IN USE.",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e3",
-                    "name": "LATE",
-                    "airportConditions": "ARRS EXP ILS RWY 36R. DEPTG RWY 18L.",
+                    "name": "NORTH ILS",
+                    "airportConditions": "ARRS EXP ILS RWY 36R APCH, ILS RWY 36L APCH. DEPTG RWY 36R, RWY 36L. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -408,7 +398,7 @@
                 {
                     "variableName": "SAID",
                     "text": "SAID",
-                    "voice": "SURFACE AWARENESS INITIATIVE DISPLAY"
+                    "voice": "SURFACE AWARENESS DISPLAY"
                 }
             ],
             "airportConditionDefinitions": [],
