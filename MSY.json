@@ -2,7 +2,7 @@
     "name": "New Orleans TRACON",
     "id": "42e7d639-470c-446c-8df2-e83bd9df1822",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/MSY.json",
-    "updateSerial": 2025011324,
+    "updateSerial": 2025011600,
     "composites": [
         {
             "id": "ee29c633-f01c-457b-9baf-02f64a4c3a96",
@@ -18,7 +18,7 @@
                 "useTextToSpeech": true,
                 "voice": "Default"
             },
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "https://houston.center/api/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "airportConditionsBeforeFreeText": false,
@@ -326,7 +326,7 @@
                 "useTextToSpeech": true,
                 "voice": "Default"
             },
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "https://houston.center/api/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "airportConditionsBeforeFreeText": false,
@@ -776,7 +776,7 @@
                 "useTextToSpeech": true,
                 "voice": "Default"
             },
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "https://houston.center/api/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "airportConditionsBeforeFreeText": false,
@@ -1103,7 +1103,7 @@
                 "useTextToSpeech": true,
                 "voice": "Default"
             },
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "https://houston.center/api/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "airportConditionsBeforeFreeText": false,
@@ -1390,7 +1390,7 @@
                 "useTextToSpeech": true,
                 "voice": "Default"
             },
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "https://houston.center/api/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "airportConditionsBeforeFreeText": false,

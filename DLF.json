@@ -3,7 +3,7 @@
     "name": "Laughlin RAPCON",
     "id": "9c002682-d438-44ef-8afd-6324c5e7ebc3",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/DLF.json",
-    "updateSerial": 2025011321,
+    "updateSerial": 2025011600,
     "stations": [
         {
             "id": "f98c325b-5973-4abb-9ba1-377650ca1c1b",
@@ -320,7 +320,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 118000000,
-            "idsEndpoint": "https://zhuartcc.org/api/vatis/",
+            "idsEndpoint": "https://houston.center/api/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
