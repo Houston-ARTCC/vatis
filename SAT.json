@@ -2,7 +2,7 @@
     "name": "San Antonio TRACON",
     "id": "70147ba4-e01c-4d60-afe9-939d9135e8ea",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/SAT.json",
-    "updateSerial": 2025011600,
+    "updateSerial": 2025012000,
     "composites": [
         {
             "id": "68cafae5-1736-4472-ad6c-8fa6eb5d664e",
@@ -380,7 +380,7 @@
                 {
                     "id": "5df63f5a-24d5-4aa2-9afa-3c8372cc6a1d",
                     "name": "NORTHWEST VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE LANDING AND DEPTG RWY 33L, ^33R. SIMUL APP IN USE.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 33L, ^33R. SIMUL APP IN USE.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -390,7 +390,7 @@
                 {
                     "id": "5abfe0b7-6a75-4a26-9462-9f472046a444",
                     "name": "SOUTHEAST VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE LANDING AND DEPTG RWY 15L, ^15R. SIMUL APP IN USE.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 15L, ^15R. SIMUL APP IN USE.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -400,7 +400,7 @@
                 {
                     "id": "a1a06a5d-551f-40e3-b3fb-126c7b65a4f5",
                     "name": "NORTHWEST IMC",
-                    "airportConditions": "*ILS AND @RNAV APPROACHES IN USE LANDING AND DEPTG RWY 33L, ^33R. SIMUL APP IN USE. TACAN AND HI *ILS APP AVAIL UPON REQUEST.",
+                    "airportConditions": "*ILS AND @RNAV APPROACHES IN USE LDG AND DEPTG RWY 33L, ^33R. SIMUL APP IN USE. TACAN AND HI *ILS APP AVAIL UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -410,7 +410,7 @@
                 {
                     "id": "c666fc1f-ccc0-41c2-87c2-68b7000fc485",
                     "name": "SOUTHEAST IMC",
-                    "airportConditions": "*ILS AND @RNAV APPROACHES IN USE LANDING AND DEPTG RWY 15L, ^15R. SIMUL APP IN USE. TACAN AND HI *ILS APP AVAIL UPON REQUEST.",
+                    "airportConditions": "*ILS AND @RNAV APPROACHES IN USE LDG AND DEPTG RWY 15L, ^15R. SIMUL APP IN USE. TACAN AND HI *ILS APP AVAIL UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -667,7 +667,7 @@
                 {
                     "id": "18f3452f-5bc7-47ea-b89e-18d65e323ea2",
                     "name": "NORTH VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPTG RWY 34.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 34.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -677,7 +677,7 @@
                 {
                     "id": "a8410c56-d737-4f2a-91ce-69b2bc24e5ac",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPTG RWY 16.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 16.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -954,7 +954,7 @@
                 {
                     "id": "8b50b130-3299-4e9b-9de7-86c51108edf5",
                     "name": "EAST VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPTG RWYS 9, ^14.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 9, RWY 14.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -964,7 +964,7 @@
                 {
                     "id": "69573531-3cde-4b15-830c-e2f0c3daab23",
                     "name": "WEST VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPTG RWYS 27, ^32.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 27, RWY 32.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -974,7 +974,7 @@
                 {
                     "id": "a4132fb4-1bf2-40fd-bb70-bdb87035a401",
                     "name": "EAST IMC",
-                    "airportConditions": "@RNAV AND *VOR CIRCLING INSTRUMENT APPROACHES TO RWY 9, ^14 IN USE. DEPTG RWY 9, ^14. ",
+                    "airportConditions": "@RNAV AND *VOR CIRCLING INSTRUMENT APPROACHES TO RWY 9, RWY 14 IN USE. DEPTG RWY 9, RWY 14. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -984,7 +984,7 @@
                 {
                     "id": "c4df414b-74a4-4c86-aa8e-fdeb2e172d90",
                     "name": "WEST IMC",
-                    "airportConditions": "@RNAV AND *VOR RWY 32 APPROACH IN USE. DEPTG RWY 27, ^32.",
+                    "airportConditions": "@RNAV AND *VOR RWY 32 APPROACH IN USE. DEPTG RWY 27, RWY 32.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1241,7 +1241,7 @@
                 {
                     "id": "9a951d4c-4da5-45fd-ba84-8b3d6b5924df",
                     "name": "NORTH VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPTG RWYS 31, ^35.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 31, RWY 35.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1251,7 +1251,7 @@
                 {
                     "id": "cc12de72-9fd4-4732-a2d1-bbdd372cae2f",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VISUAL APPROACHES IN USE. LANDING AND DEPTG RWYS 13, ^17.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 13, RWY 17.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1261,7 +1261,7 @@
                 {
                     "id": "e2d32121-ff80-4363-80ed-ab6ed9dff44d",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV APPROACHES IN USE. LANDING AND DEPTG RWYS 31, ^35.",
+                    "airportConditions": "@RNAV APPROACHES IN USE. LDG AND DEPTG RWY 31, RWY 35.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1271,7 +1271,7 @@
                 {
                     "id": "7f7ba9b8-e0ee-4d5d-bb26-e1ae30dc8027",
                     "name": "SOUTH IMC",
-                    "airportConditions": "@RNAV APPROACHES IN USE. LANDING AND DEPTG RWYS 31, ^35.",
+                    "airportConditions": "@RNAV APPROACHES IN USE. LDG AND DEPTG RWY 31, RWY 35.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {

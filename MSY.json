@@ -2,7 +2,7 @@
     "name": "New Orleans TRACON",
     "id": "42e7d639-470c-446c-8df2-e83bd9df1822",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/MSY.json",
-    "updateSerial": 2025011600,
+    "updateSerial": 2025012000,
     "composites": [
         {
             "id": "ee29c633-f01c-457b-9baf-02f64a4c3a96",
@@ -27,7 +27,7 @@
                 {
                     "id": "0bd3a8e3-0ff5-43eb-b985-69d94c60d9ab",
                     "name": "NORTH VISUAL",
-                    "airportConditions": "LDG AND DEPTG RWYS 36L, ^36R. VIS APCHS IN USE.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 36L, RWY 36R.",
                     "notams": "READBACK OF ALL RUNWAY HOLDING INSTRUCTIONS REQUIRED. ADVISE ATC PRIOR TO DEPARTURE IF REQUSTING NEW ORLEANS CLASS BRAVO TRANSITION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. SQUAWK MODE CHARLIE ON ALL SURFACE AREAS",
                     "externalGenerator": {
@@ -37,7 +37,7 @@
                 {
                     "id": "61cc2058-ea35-402c-9a35-6ae6bb0151eb",
                     "name": "NORTH RNAV",
-                    "airportConditions": "LDG AND DEPTG RWYS 36L, ^36R. @RNAV RWY 36L APCH IN USE.",
+                    "airportConditions": "@RNAV RWY 36L APCH IN USE. LDG AND DEPTG RWY 36L, RWY 36R. ",
                     "notams": "READBACK OF ALL RWY HOLDING INSTRUCTIONS REQUIRED. ADVISE ATC PRIOR TO DEPARTURE IF REQUSTING NEW ORLEANS CLASS BRAVO TRANSITION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. SQUAWK MODE CHARLIE ON ALL SURFACE AREAS",
                     "externalGenerator": {
@@ -47,7 +47,7 @@
                 {
                     "id": "0d7cebb3-3aa8-4015-b717-0aa323baeb1f",
                     "name": "SOUTH VISUAL",
-                    "airportConditions": "LDG AND DEPTG RWYS 18R, ^18L. VIS APCHS IN USE.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 18R, RWY 18L. ",
                     "notams": "READBACK OF ALL RWY HOLDING INSTRUCTIONS REQUIRED. ADVISE ATC PRIOR TO DEPARTURE IF REQUSTING NEW ORLEANS CLASS BRAVO TRANSITION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. SQUAWK MODE CHARLIE ON ALL SURFACE AREAS",
                     "externalGenerator": {
@@ -57,7 +57,7 @@
                 {
                     "id": "7bbae87a-a445-424a-b046-96e8951491e3",
                     "name": "SOUTH ILS",
-                    "airportConditions": "LDG AND DEPTG RWYS 18R AND 18L. ILS RWY 18R APCH IN USE.",
+                    "airportConditions": "ILS RWY 18R APCH IN USE. LDG AND DEPTG RWY 18R, RWY 18L. ",
                     "notams": "READBACK OF ALL RWY HOLDING INSTRUCTIONS REQUIRED. ADVISE ATC PRIOR TO DEPARTURE IF REQUSTING NEW ORLEANS CLASS BRAVO TRANSITION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. SQUAWK MODE CHARLIE ON ALL SURFACE AREAS",
                     "externalGenerator": {
@@ -67,7 +67,7 @@
                 {
                     "id": "6907e8ac-f59d-47d9-9b75-5fca9a80f0d8",
                     "name": "EAST",
-                    "airportConditions": "LDG AND DEPTG RWY 9. VIS APCH IN USE.",
+                    "airportConditions": "VIS APCH IN USE. LDG AND DEPTG RWY 9.",
                     "notams": "READBACK OF ALL RWY HOLDING INSTRUCTIONS REQUIRED. ADVISE ATC PRIOR TO DEPARTURE IF REQUSTING NEW ORLEANS CLASS BRAVO TRANSITION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. SQUAWK MODE CHARLIE ON ALL SURFACE AREAS",
                     "externalGenerator": {
@@ -77,7 +77,7 @@
                 {
                     "id": "0915bc43-24f6-47d7-9d4f-4af5fa76b11d",
                     "name": "WEST",
-                    "airportConditions": "LDG AND DEPTG RUNWAY 27. VIS APPCH IN USE.",
+                    "airportConditions": "VIS APPCH IN USE. LDG AND DEPTG RUNWAY 27.",
                     "notams": "READBACK OF ALL RWY HOLDING INSTRUCTIONS REQUIRED. ADVISE ATC PRIOR TO DEPARTURE IF REQUSTING NEW ORLEANS CLASS BRAVO TRANSITION.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. SQUAWK MODE CHARLIE ON ALL SURFACE AREAS",
                     "externalGenerator": {
@@ -1112,7 +1112,7 @@
                 {
                     "id": "05ec586e-843b-43ca-8971-77dba5b0fe75",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 30, ^36.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 30, RWY 36.",
                     "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1132,7 +1132,7 @@
                 {
                     "id": "37f0a401-7476-4247-b342-6b780a2fb47c",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWYS 30, ^36.",
+                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 30, RWY 36.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1142,7 +1142,7 @@
                 {
                     "id": "86f96649-bd86-45a8-a84b-919b1f283f3a",
                     "name": "SOUTH IMC",
-                    "airportConditions": "ILS RWY 18 AND @RNAV RWY 12 APCH IN USE. DEPTG RWYS 13, ^18. ",
+                    "airportConditions": "ILS RWY 18 AND @RNAV RWY 12 APCH IN USE. DEPTG RWY 13, RWY 18. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1399,7 +1399,7 @@
                 {
                     "id": "4c08e361-d197-48e5-962b-731f078595fe",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 31, ^36.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 31, RWY 36.",
                     "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1409,7 +1409,7 @@
                 {
                     "id": "c0cf28b7-a4db-4cd4-afdd-23d01d8dc4b8",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWYS 13, ^18.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13, RWY 18.",
                     "notams": "*VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1419,7 +1419,7 @@
                 {
                     "id": "9c2ff218-7cbe-4901-850c-5e002ab7e52e",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWYS 31, ^36.",
+                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 31, RWY 36.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1429,7 +1429,7 @@
                 {
                     "id": "78f6b236-ad7f-4fd1-b749-f7c213d89631",
                     "name": "SOUTH IMC",
-                    "airportConditions": "ILS RWY 18 AND @RNAV RWY 13 APCH IN USE. LDG AND DEPTG RWYS 13, ^18.",
+                    "airportConditions": "ILS RWY 18 AND @RNAV RWY 13 APCH IN USE. LDG AND DEPTG RWY 13, RWY 18.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
