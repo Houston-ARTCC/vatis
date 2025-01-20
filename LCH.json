@@ -57,7 +57,7 @@
                 {
                     "id": "02f7e9ef-211b-476c-bf71-9afac0e19a25",
                     "name": "STANDARD",
-                    "airportConditions": "*ILS RWY 15 AND @RNAV RWY 5 IN USE. DEPTG RWYS 5, ^15.",
+                    "airportConditions": "ILS RWY 15 AND @RNAV RWY 5 IN USE. DEPTG RWY 15, RWY 5.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
