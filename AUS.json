@@ -3,7 +3,7 @@
     "name": "Austin TRACON",
     "id": "e6e1a708-224e-4cb2-b4cb-bd8e2b0bcd8a",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/AUS.json",
-    "updateSerial": 2025012000,
+    "updateSerial": 2025012300,
     "stations": [
         {
             "id": "062efe99-6845-4b9d-adeb-ae7b61e5d4ce",
@@ -320,7 +320,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 124400000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
@@ -719,7 +719,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 118600000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
@@ -1090,7 +1090,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 118825000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
@@ -1426,7 +1426,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 120825000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
