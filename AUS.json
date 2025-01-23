@@ -320,7 +320,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 124400000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
@@ -719,7 +719,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 118600000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
@@ -1090,7 +1090,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 118825000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
@@ -1426,7 +1426,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 120825000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {

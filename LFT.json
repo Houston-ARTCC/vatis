@@ -320,7 +320,7 @@
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
             "frequency": 134050000,
-            "idsEndpoint": "https://houston.center/api/vatis/",
+            "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
             "atisVoice": {
