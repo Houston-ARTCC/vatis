@@ -333,7 +333,7 @@
                     "name": "SOUTH VISUAL",
                     "airportConditions": "ARRS EXP VIS APCHS RWY 18L, RWY 18R. DEPTG RWY 18L, RWY 18R. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -343,7 +343,7 @@
                     "name": "SOUTH ILS",
                     "airportConditions": "ARRS EXP ILS RWY 18L APCH, ILS RWY 18R APCH. DEPTG RWY 18L, RWY 18R. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -353,7 +353,7 @@
                     "name": "NORTH VISUAL",
                     "airportConditions": "ARRS EXP VIS APCHS RWY 36R, RWY 36L. DEPTG RWY 36R, RWY 36L. @SIMULAPP IN USE. ",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -363,7 +363,7 @@
                     "name": "NORTH ILS",
                     "airportConditions": "ARRS EXP ILS RWY 36R APCH, ILS RWY 36L APCH. DEPTG RWY 36R, RWY 36L. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -373,7 +373,7 @@
                     "name": "D-ATIS",
                     "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -732,7 +732,7 @@
                     "name": "NORTHWEST VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 29, RWY 36.",
                     "notams": "BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "GEORGETOWN MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -742,7 +742,7 @@
                     "name": "SOUTHEAST VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 11, RWY 18.",
                     "notams": "BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "GEORGETOWN MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -752,7 +752,7 @@
                     "name": "NORTHWEST IMC",
                     "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 29, RWY 36.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "GEORGETOWN MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -762,7 +762,7 @@
                     "name": "SOUTHEAST IMC",
                     "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 11, RWY 18.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "GEORGETOWN MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -773,6 +773,11 @@
                     "variableName": "RNAV",
                     "text": "RNAV",
                     "voice": "R NAV"
+                },
+                {
+                    "variableName": "MUN",
+                    "text": "MUN",
+                    "voice": "MUNICIPAL"
                 }
             ],
             "airportConditionDefinitions": [],
@@ -1439,7 +1444,7 @@
                     "name": "EAST VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 8, RWY 13.",
                     "notams": "BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1449,7 +1454,7 @@
                     "name": "WEST VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 26, RWY 31.",
                     "notams": "BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1459,7 +1464,7 @@
                     "name": "NORTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35.",
                     "notams": "BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1469,7 +1474,7 @@
                     "name": "SOUTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17.",
                     "notams": "BIRD ACTIVITY INVOF ARPT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1479,7 +1484,7 @@
                     "name": "EAST IMC",
                     "airportConditions": "ILS RWY 13 AND @RNAV RWY 8 APPR IN USE. LDG AND DEPTG RWY 8, RWY 13.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1489,7 +1494,7 @@
                     "name": "WEST IMC",
                     "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 26, RWY 31.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1499,7 +1504,7 @@
                     "name": "NORTH IMC",
                     "airportConditions": "@RNAV APPR IN USE. LDG AND DEPTG RWY 35.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1509,7 +1514,7 @@
                     "name": "SOUTH IMC",
                     "airportConditions": "@RNAV APPR IN USE. LDG AND DEPTG RWY 17.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "SAN MARCOS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1520,6 +1525,11 @@
                     "variableName": "RNAV",
                     "text": "RNAV",
                     "voice": "R NAV"
+                },
+                {
+                    "variableName": "MUN",
+                    "text": "MUN",
+                    "voice": "MUNICIPAL"
                 }
             ],
             "airportConditionDefinitions": [],

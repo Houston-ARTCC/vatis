@@ -789,7 +789,7 @@
                     "name": "VMC SOUTH",
                     "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, RWY 18L. DEPARTING RWY 18R, RWY 18L. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -799,7 +799,7 @@
                     "name": "VMC NORTH",
                     "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 36R, RWY 36L. DEPARTING RWY 36R, RWY 36L. @SIMULAPP IN USE. ",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -809,7 +809,7 @@
                     "name": "IMC SOUTH",
                     "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 18R, RWY 18L. DEPARTING RWY 18R, RWY 18L. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -819,7 +819,7 @@
                     "name": "IMC NORTH",
                     "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 36R, RWY 36L. DEPARTING RWY 36R, RWY 36L. @SIMULAPP IN USE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -829,7 +829,7 @@
                     "name": "LATE",
                     "airportConditions": "ARRIVALS EXPECT ILS RWY 36R. DEPARTING RWY 18L.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -839,7 +839,7 @@
                     "name": "D-ATIS",
                     "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -863,7 +863,7 @@
                     "spoken": "SURFACE AWARENESS DISPLAY"
                 },
                 {
-                    "string": "INT",
+                    "string": "INTL",
                     "spoken": "INTERNATIONAL"
                 }
             ],
@@ -2019,7 +2019,7 @@
                     "name": "NORTH VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LDG RWY 31R, RWY 35R. DEPTG RWY 31L, RWY 35L. PRACTICE APPR AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "KINGSVILLE NAS ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2029,7 +2029,7 @@
                     "name": "SOUTH VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LDG RWY 13L, RWY 17L. DEPTG RWY 13R, RWY 17R. PRACTICE APPR AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "KINGSVILLE NAS ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2039,7 +2039,7 @@
                     "name": "NORTH IMC",
                     "airportConditions": "TACAN APCH IN USE. LDG RWY 31R, RWY 35R. DEPTG RWY 31L, RWY 35L.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "KINGSVILLE NAS ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2049,7 +2049,7 @@
                     "name": "SOUTH IMC",
                     "airportConditions": "ILS RWY 13R AND TACAN APCH RWY 17L IN USE. DEPTG RWY 13R, RWY 17R. HI ILS APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "KINGSVILLE NAS ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2310,7 +2310,7 @@
                     "name": "NORTH VMC",
                     "airportConditions": "VIS APP IN USE. LDG AND DEPTG RWY 4L, RWY 4R, RWY 11.",
                     "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "LAFAYETTE REGL ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2320,7 +2320,7 @@
                     "name": "SOUTH VMC",
                     "airportConditions": "VIS APP IN USE. LDG AND DEPTG RWY 22L, RWY 22R, RWY 29.",
                     "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "LAFAYETTE REGL ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2330,7 +2330,7 @@
                     "name": "EAST VMC",
                     "airportConditions": "VIS APP IN USE. LDG AND DEPTG RWY 11.",
                     "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "LAFAYETTE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2340,7 +2340,7 @@
                     "name": "WEST VMC",
                     "airportConditions": "VIS APP IN USE. LDG AND DEPTG RWY 29.",
                     "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "LAFAYETTE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2350,7 +2350,7 @@
                     "name": "NORTH IMC",
                     "airportConditions": "ILS AND @RNAV RWY 4R APP IN USE. DEPTG RWY 4L, RWY 4R, RWY 11.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "LAFAYETTE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2360,7 +2360,7 @@
                     "name": "SOUTH IMC",
                     "airportConditions": "ILS AND @RNAV RY 22L APP IN USE. DEPTG RWY 22L, RWY 22R, RWY 29.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "LAFAYETTE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2370,7 +2370,7 @@
                     "name": "WEST IMC",
                     "airportConditions": "@RNAV RWY 29 APP IN USE. DEPTG RWY 29.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "LAFAYETTE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2631,7 +2631,7 @@
                     "name": "NORTH",
                     "airportConditions": "LDG AND DEPTG RWY 33. @RNAV APP IN USE.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "LAKE CHARLES REGL ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2641,7 +2641,7 @@
                     "name": "EAST",
                     "airportConditions": "LDG AND DEPTG RWY 5. @RNAV APP IN USE.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "LAKE CHARLES REGL ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2651,7 +2651,7 @@
                     "name": "WEST",
                     "airportConditions": "LDG AND DEPTG RWY 23. @RNAV APP IN USE.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "LAKE CHARLES REGL ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2661,7 +2661,7 @@
                     "name": "STANDARD",
                     "airportConditions": "ILS RWY 15 AND @RNAV RWY 5 IN USE. DEPTG RWY 5, RWY 15.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "LAKE CHARLES REGL ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2922,7 +2922,7 @@
                     "name": "13 VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LANDING RWY 13L, RWY 13C. DEPTG RWY 13C, RWY 13R. PRACTICE INSTRUMENT APPRS AVBL UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "LAUGHLIN AFB ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2932,7 +2932,7 @@
                     "name": "31 VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LANDING RWY 31C, RWY 31R. DEPTG RWY 31C RWY 31L. PRACTICE INSTRUMENT APPRS AVBL UPON REQUEST.",
                     "notams": "DEPTG VFR ACFT ADVS DRCTN OF FLT ON INITIAL CTC. DEPS RQST NON NORMAL CLIMBOUT RQST ON INITIAL CTC. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2942,7 +2942,7 @@
                     "name": "13 IMC",
                     "airportConditions": "ILS AND @RNAV RWY 13C APCH IN USE. DEPTG RWY 13C RWY 13R. HI ILS AND VOR APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2952,7 +2952,7 @@
                     "name": "31 IMC",
                     "airportConditions": "ILS AND @RNAV RWY 31C APCH IN USE. DEPTG RWY 31L AND RWY 31C. HI ILS AND VOR APCH AVBL UPON RQST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3221,7 +3221,7 @@
                     "name": "NORTH VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LDG AND DEPTG RWY 33, RWY 36.",
                     "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "MOBILE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3231,7 +3231,7 @@
                     "name": "SOUTH VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LDG AND DEPTG RWY 15, RWY 18.",
                     "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "MOBILE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3241,7 +3241,7 @@
                     "name": "NORTH IMC",
                     "airportConditions": "ILS RWY 33 APP IN USE. DEPTG RWY 33, RWY 36. @RNAV APPRS AVAILABLE UPON REQUEST. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "MOBILE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3251,7 +3251,7 @@
                     "name": "SOUTH IMC",
                     "airportConditions": "ILS RWY 15 APP IN USE. DEPTG RWY 15, RWY 18. @RNAV APPRS AVAILABLE UPON REQUEST. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "MOBILE REGL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3512,7 +3512,7 @@
                     "name": "SE FLOW VMC (11/20, 20)",
                     "airportConditions": "VISUAL APPS IN USE. ARRS EXPECT RWY 11 EXCEPT ACFT INBD FROM NORTH THRU SOUTHEAST, EXPECT RWY 20. DEPTG RWY 20.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3522,7 +3522,7 @@
                     "name": "SE FLOW IMC  (11/20, 20)",
                     "airportConditions": "ARRS EXPECT ILS RWY 11 APCH EXCEPT ACFT INBD FROM NORTH THRU SOUTHEAST, EXPECT *GPS RWY 20. DEPTG RWY 20.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3532,7 +3532,7 @@
                     "name": "NE FLOW VMC (11/2, 2)",
                     "airportConditions": "VISUAL APPS IN USE. ARRS EXPECT RWY 11 EXCEPT ACFT INBD FROM NORTH THRU SOUTHEAST EXPECT RWY 2. DEPTG RWY 2.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3542,7 +3542,7 @@
                     "name": "NE FLOW IMC  (11/2, 2)",
                     "airportConditions": "ARRS EXPECT ILS RWY 11 APCH EXCEPT ACFT INBD FROM NORTH THRU SOUTHEAST, EXPECT ILS RWY 2 APCH. DEPTG RWY 2.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3552,7 +3552,7 @@
                     "name": "NW FLOW VMC (2, 29)",
                     "airportConditions": "ARRS EXPECT VISUAL APCH RWY 2. DEPTG RWY 29.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3562,7 +3562,7 @@
                     "name": "NW FLOW IMC  (2, 29)",
                     "airportConditions": "ARRS EXPECT ILS RWY 2 APCH. DEPTG RWY 29.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3572,7 +3572,7 @@
                     "name": "SW FLOW VMC (20, 29)",
                     "airportConditions": "ARRS EXPECT VISUAL APCH RWY 20. DEPTG RWY 29.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3582,7 +3582,7 @@
                     "name": "SW FLOW IMC (20, 29)",
                     "airportConditions": "ARRIVALS EXPECT GPS RWY 20 APCH. DEPTG RWY 29.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3592,7 +3592,7 @@
                     "name": "2 VISUAL",
                     "airportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 2.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3602,7 +3602,7 @@
                     "name": "2 ILS",
                     "airportConditions": "ARRS EXPECT ILS RWY 2 APCH. DEPTG RWY 2.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3612,7 +3612,7 @@
                     "name": "11 VISUAL",
                     "airportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 11.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3622,7 +3622,7 @@
                     "name": "11 ILS",
                     "airportConditions": "ARRS EXPECT ILS RWY 11 APCH. DEPTG RWY 11.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3632,7 +3632,7 @@
                     "name": "20 VISUAL",
                     "airportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 20.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3642,7 +3642,7 @@
                     "name": "20 GPS",
                     "airportConditions": "ARRS EXPECT GPS RWY 20 APCH. DEPTG RWY 20.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3652,7 +3652,7 @@
                     "name": "29 VISUAL",
                     "airportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 29.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3662,7 +3662,7 @@
                     "name": "29 ILS",
                     "airportConditions": "ARRS EXPECT ILS RWY 29 APCH. DEPTG RWY 29.",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3672,7 +3672,7 @@
                     "name": "D-ATIS",
                     "airportConditions": "***COPY D-ATIS INFORMATION HERE***",
                     "notams": "@ASSC IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+                    "template": "ARMSTRONG NEW ORLEANS AIRPORT ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3706,21 +3706,6 @@
             ],
             "airportConditionDefinitions": [],
             "notamDefinitions": [
-                {
-                    "ordinal": 1,
-                    "text": "CRANES DOWN.",
-                    "enabled": false
-                },
-                {
-                    "ordinal": 2,
-                    "text": "RWY 11 NOISE SENSITIVE FOR DEP; AVBL FOR OPNL NECESSITY. ",
-                    "enabled": false
-                },
-                {
-                    "ordinal": 3,
-                    "text": "ALL RYS NOISE SENSITIVE FOR ARR. ARRIVING TURBOJETS MUST MAKE 5 MILE FINAL APCH TO MINIMIZE NOISE.",
-                    "enabled": false
-                }
             ],
             "atisFormat": {
                 "observationTime": {
@@ -3961,7 +3946,7 @@
                     "id": "6f59f5b2-1cf3-4611-b931-9f9643020f6f",
                     "name": "NORTH VMC",
                     "airportConditions": "VISUAL APPR IN USE. LDG AND DEPTG RWY 34.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "POLK AAF ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3970,7 +3955,7 @@
                     "id": "051fbdfd-9d48-4759-9599-7e0c39b08272",
                     "name": "SOUTH VMC",
                     "airportConditions": "VISUAL APPR IN USE. LDG AND DEPTG RWY 16.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "POLK AAF ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3979,7 +3964,7 @@
                     "id": "dd5ee721-8ea7-4ab0-844c-b6d6dc202414",
                     "name": "NORTH IMC",
                     "airportConditions": "@RNAV APPR IN USE. LDG AND DEPTG RWY 34.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "POLK AAF ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3988,7 +3973,7 @@
                     "id": "72b468c8-60ca-48a7-8d9a-689459d4a9a4",
                     "name": "SOUTH IMC",
                     "airportConditions": "@RNAV APPR IN USE. LDG AND DEPTG RWY 16.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "POLK AAF ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
