@@ -2,7 +2,7 @@
     "name": "I90 TRACON",
     "id": "939efdda-1bd6-4e5e-9532-b58133d23db6",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/I90.json",
-    "updateSerial": 2025012300,
+    "updateSerial": 2025021100,
     "composites": [
         {
             "id": "8fdadc87-2035-4398-9ce8-826f0133d9fd",
@@ -785,7 +785,7 @@
                     "name": "NORTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 30, RWY 34.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "JACK BROOKS MUN ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -795,7 +795,7 @@
                     "name": "SOUTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 12, RWY 16.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "JACK BROOKS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -805,7 +805,7 @@
                     "name": "NORTH IMC",
                     "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 30, RWY 34.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "JACK BROOKS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -815,7 +815,7 @@
                     "name": "SOUTH IMC",
                     "airportConditions": "ILS RWY 12 AND @RNAV RWY 16 APCHS IN USE. LDG AND DEPTG RWY 12, RWY 16.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "JACK BROOKS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -825,6 +825,10 @@
                 {
                     "string": "RNAV",
                     "spoken": "R NAV"
+                },
+                {
+                    "string": "MUN",
+                    "spoken": "MUNICIPAL"
                 }
             ],
             "airportConditionDefinitions": [],
@@ -1915,7 +1919,7 @@
                     "name": "NORTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35L, RWY 35R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "template": "HOOKS MEML ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1925,7 +1929,7 @@
                     "name": "SOUTH VMC",
                     "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17L, RWY 17R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "HOOKS MEML ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1935,7 +1939,7 @@
                     "name": "NORTH IMC",
                     "airportConditions": "@RNAV APCH RWY 35L IN USE. LDG AND DEPTG RWY 35L.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "HOOKS MEML ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1945,13 +1949,18 @@
                     "name": "SOUTH IMC",
                     "airportConditions": "@RNAV APCH RWY 17R IN USE. LDG AND DEPTG RWY 17R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
-                    "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "template": "HOOKS MEML ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 }
             ],
-            "contractions": [],
+            "contractions": [
+                {
+                    "string": "MEML",
+                    "spoken": "MEMORIAL"
+                }
+            ],
             "airportConditionDefinitions": [],
             "notamDefinitions": [],
             "atisFormat": {
