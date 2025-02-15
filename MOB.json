@@ -2,7 +2,7 @@
     "name": "Mobile TRACON",
     "id": "31c87e8a-bb15-47e3-a1d7-5aae8cd10f83",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/MOB.json",
-    "updateSerial": 2025021100,
+    "updateSerial": 2025021500,
     "composites": [
         {
             "id": "7d40afd6-67d4-4589-bb99-9dd179634d26",
@@ -344,7 +344,7 @@
                 {
                     "id": "7a659fc8-519d-49f0-9083-701043bbc25f",
                     "name": "SOUTH IMC",
-                    "airportConditions": "@RNAV RWY 32, @RNAV RWY 36 APCHS IN USE. LDG AND DEPTG RWY 32, RWY 36. VOR APCH AVAILABLE UPON REQUEST.",
+                    "airportConditions": "@RNAV RWY 14, @RNAV RWY 18 APCHS IN USE. LDG AND DEPTG RWY 14, RWY 18. VOR APCH AVAILABLE UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
