@@ -2,7 +2,7 @@
     "name": "San Antonio TRACON",
     "id": "70147ba4-e01c-4d60-afe9-939d9135e8ea",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/SAT.json",
-    "updateSerial": 2025021500,
+    "updateSerial": 2025021900,
     "composites": [
         {
             "id": "68cafae5-1736-4472-ad6c-8fa6eb5d664e",
