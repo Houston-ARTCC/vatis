@@ -87,7 +87,7 @@
                 {
                     "id": "28cc1118-0886-4357-810d-9c2e278eba05",
                     "name": "WEST",
-                    "airportConditions": "@RNAV RWY 22 APCH IN USE. DEPTG RWY 22.",
+                    "airportConditions": "RNAV RWY 22 APCH IN USE. DEPTG RWY 22.",
                     "notams": "ALL ACFT TAXI WITH TRANSPONDER ON. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -422,7 +422,7 @@
                 {
                     "id": "df6aee81-8aea-4d32-ae28-d2794be166e0",
                     "name": "ARRIVE WEST - DEPART SOUTH",
-                    "airportConditions": "ARRIVALS EXPECT ILS OR @RNAV *Y RWY 26R, ILS RWY 26L, ILS RWY 27. @SIMULAPP IN USE. DEPTG RWY 15L, RWY 15R.",
+                    "airportConditions": "ARRIVALS EXPECT ILS OR RNAV *Y RWY 26R, ILS RWY 26L, ILS RWY 27. @SIMULAPP IN USE. DEPTG RWY 15L, RWY 15R.",
                     "notams": "UNITED RAMP CONTROL IN EFFECT. ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -432,7 +432,7 @@
                 {
                     "id": "bac9f6b4-fd76-4c60-94a5-6731bf2476e4",
                     "name": "ARRIVE WEST - DEPART NORTH",
-                    "airportConditions": "ARRIVALS EXPECT ILS OR @RNAV *Y RWY 26R, ILS RWY 26L, ILS RWY 27. @SIMULAPP IN USE. DEPTG RWY 33R, RWY 33L.",
+                    "airportConditions": "ARRIVALS EXPECT ILS OR RNAV *Y RWY 26R, ILS RWY 26L, ILS RWY 27. @SIMULAPP IN USE. DEPTG RWY 33R, RWY 33L.",
                     "notams": "UNITED RAMP CONTROL IN EFFECT. ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -442,7 +442,7 @@
                 {
                     "id": "7bf93cbc-28b2-4b2d-9ac7-dd284919bb67",
                     "name": "STRAIGHT WEST",
-                    "airportConditions": "ARRIVALS EXPECT ILS OR @RNAV *Y RWY 26R, ILS RWY 26L. @SIMULAPP IN USE. DEPTG RWY 27.",
+                    "airportConditions": "ARRIVALS EXPECT ILS OR RNAV *Y RWY 26R, ILS RWY 26L. @SIMULAPP IN USE. DEPTG RWY 27.",
                     "notams": "UNITED RAMP CONTROL IN EFFECT. ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -452,7 +452,7 @@
                 {
                     "id": "b6e66b8f-1337-4f46-bbf6-833fcc43ece1",
                     "name": "ARRIVE EAST - DEPART SOUTH",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 8L, ILS RWY 8R, ILS OR @RNAV *Y RWY 9. @SIMULAPP IN USE. DEPTG RWY 15L, RWY 15R.",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 8L, ILS RWY 8R, ILS OR RNAV *Y RWY 9. @SIMULAPP IN USE. DEPTG RWY 15L, RWY 15R.",
                     "notams": "UNITED RAMP CONTROL IN EFFECT. ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -462,7 +462,7 @@
                 {
                     "id": "1eaccb7f-26e6-4cb9-969e-4ad4debf0235",
                     "name": "15 FLOW",
-                    "airportConditions": "ARRIVALS EXPECT ILS OR @RNAV GPS RWY 15R. DEPTG RWY 15L.",
+                    "airportConditions": "ARRIVALS EXPECT ILS OR RNAV GPS RWY 15R. DEPTG RWY 15L.",
                     "notams": "UNITED RAMP CONTROL IN EFFECT. ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -472,7 +472,7 @@
                 {
                     "id": "8d595554-446a-4676-9215-bacc34574e4b",
                     "name": "33 FLOW",
-                    "airportConditions": "ARRIVALS EXPECT ILS OR @RNAV GPS RWY 33R. DEPTG RWY 33L.",
+                    "airportConditions": "ARRIVALS EXPECT ILS OR RNAV GPS RWY 33R. DEPTG RWY 33L.",
                     "notams": "UNITED RAMP CONTROL IN EFFECT. ALL ACFT TAXI WITH TRANSPONDER ON.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -803,7 +803,7 @@
                 {
                     "id": "114a1cb6-aa23-4de7-ae25-94304472c359",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 30, RWY 34.",
+                    "airportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 30, RWY 34.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "JACK BROOKS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -813,7 +813,7 @@
                 {
                     "id": "25e36298-b5e4-45c7-a10d-74e85a5eaf34",
                     "name": "SOUTH IMC",
-                    "airportConditions": "ILS RWY 12 AND @RNAV RWY 16 APCHS IN USE. LDG AND DEPTG RWY 12, RWY 16.",
+                    "airportConditions": "ILS RWY 12 AND RNAV RWY 16 APCHS IN USE. LDG AND DEPTG RWY 12, RWY 16.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "JACK BROOKS MUN ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1092,7 +1092,7 @@
                 {
                     "id": "75d1dc64-d451-4cbc-9d53-7e44e55bb56f",
                     "name": "SOUTH FLOW IMC",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 17R, ILS *Z RWY 22. @RNAV APCHS AVAILABLE ON REQUEST. DEPTG RWY 17R, RWY 17L, RWY 22.",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 17R, ILS *Z RWY 22. RNAV APCHS AVAILABLE ON REQUEST. DEPTG RWY 17R, RWY 17L, RWY 22.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -1102,7 +1102,7 @@
                 {
                     "id": "f2001c78-152c-4914-9030-c0e866008054",
                     "name": "NORTH FLOW IMC",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 35L, @RNAV 04. DEPTG RWY 35R, RWY 35L, RWY 04.",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 35L, RNAV 04. DEPTG RWY 35R, RWY 35L, RWY 04.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -1362,7 +1362,7 @@
                 {
                     "id": "58211278-512c-4217-b631-e1227a3afd49",
                     "name": "NORTH IMC",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 35. @RNAV APCHS AVAILABLE ON REQUEST. DEPTG RWY 29, RWY 35.",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 35. RNAV APCHS AVAILABLE ON REQUEST. DEPTG RWY 29, RWY 35.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -1382,7 +1382,7 @@
                 {
                     "id": "d959c176-5e56-4e2f-b27f-abacda5f62d9",
                     "name": "SOUTH IMC",
-                    "airportConditions": "@RNAV APCHS RWY 17, RWY 11 IN USE. DEPTG RWY 17, RWY 11",
+                    "airportConditions": "RNAV APCHS RWY 17, RWY 11 IN USE. DEPTG RWY 17, RWY 11",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1652,7 +1652,7 @@
                 {
                     "id": "c3789e88-ea2e-43d7-9599-c0b05d153a1c",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 1, RWY 32.",
+                    "airportConditions": "RNAV APCHS IN USE. LDG AND DEPTG RWY 1, RWY 32.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1662,7 +1662,7 @@
                 {
                     "id": "a77373b2-70af-402e-b3b3-505227393494",
                     "name": "SOUTH IMC",
-                    "airportConditions": "ILS RWY 14 AND @RNAV RWY 19 APCH IN USE. DEPTG RWY 14, RWY 19.",
+                    "airportConditions": "ILS RWY 14 AND RNAV RWY 19 APCH IN USE. DEPTG RWY 14, RWY 19.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1937,7 +1937,7 @@
                 {
                     "id": "48d76407-7dcd-4a81-b992-3b375ad83fbb",
                     "name": "NORTH IMC",
-                    "airportConditions": "@RNAV APCH RWY 35L IN USE. LDG AND DEPTG RWY 35L.",
+                    "airportConditions": "RNAV APCH RWY 35L IN USE. LDG AND DEPTG RWY 35L.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "HOOKS MEML ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1947,7 +1947,7 @@
                 {
                     "id": "1a7cff69-65e5-4646-8320-86959e0a9a32",
                     "name": "SOUTH IMC",
-                    "airportConditions": "@RNAV APCH RWY 17R IN USE. LDG AND DEPTG RWY 17R.",
+                    "airportConditions": "RNAV APCH RWY 17R IN USE. LDG AND DEPTG RWY 17R.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "HOOKS MEML ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -2222,7 +2222,7 @@
                 {
                     "id": "fc2e3f8d-d4a4-4087-8c03-e6edf3efcecf",
                     "name": "NORTH FLOW ILS",
-                    "airportConditions": "ILS RWY 35 APCH IN USE. @RNAV APCH AVAILABLE ON REQUEST. DEPTG RWY 35.",
+                    "airportConditions": "ILS RWY 35 APCH IN USE. RNAV APCH AVAILABLE ON REQUEST. DEPTG RWY 35.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -2232,7 +2232,7 @@
                 {
                     "id": "8cd2464d-02ab-448d-b723-c7491dc8f825",
                     "name": "SOUTH FLOW IMC",
-                    "airportConditions": "@RNAV RWY 17 APCH IN USE. LDG AND DEPTG RWY 17.",
+                    "airportConditions": "RNAV RWY 17 APCH IN USE. LDG AND DEPTG RWY 17.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
