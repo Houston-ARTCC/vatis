@@ -319,7 +319,7 @@
             },
             "notamsBeforeFreeText": false,
             "airportConditionsBeforeFreeText": false,
-            "frequency": 118000000,
+            "frequency": 135575000,
             "idsEndpoint": "https://ids.houston.center/vatis/",
             "useNotamPrefix": true,
             "useDecimalTerminology": false,
