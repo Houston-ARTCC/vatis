@@ -402,13 +402,13 @@
                 }
             ],
             "airportConditionDefinitions": [],
-			"notamDefinitions": [
-			  {
-				  "text": "DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
-				  "ordinal": 1,
-				  "enabled": true
-			  }
-			]
+	    "notamDefinitions": [
+		    {
+			    "text": "DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
+			    "ordinal": 1,
+			    "enabled": true
+		    }
+	    ]
         },
         {
             "id": "e9b7b721-4a60-4ae9-ac70-4fdd20019eab",
