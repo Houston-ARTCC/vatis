@@ -788,7 +788,7 @@
                     "id": "eeaf1853-a410-496f-bd96-c9d7561e145d",
                     "name": "VMC SOUTH",
                     "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 18R, RWY 18L. DEPARTING RWY 18R, RWY 18L. @SIMULAPP IN USE.",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -798,7 +798,7 @@
                     "id": "56abf256-0b19-4f5b-a14c-b848bbcadb20",
                     "name": "VMC NORTH",
                     "airportConditions": "ARRIVALS EXPECT VIS APCH RWY 36R, RWY 36L. DEPARTING RWY 36R, RWY 36L. @SIMULAPP IN USE. ",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -808,7 +808,7 @@
                     "id": "d8459145-9523-448e-b45b-9c34848f586d",
                     "name": "IMC SOUTH",
                     "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 18R, RWY 18L. DEPARTING RWY 18R, RWY 18L. @SIMULAPP IN USE.",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -818,7 +818,7 @@
                     "id": "aa63a1e3-12f0-43e7-8f13-69448b5ee520",
                     "name": "IMC NORTH",
                     "airportConditions": "ARRIVALS EXPECT ILS APCH RWY 36R, RWY 36L. DEPARTING RWY 36R, RWY 36L. @SIMULAPP IN USE.",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -828,7 +828,7 @@
                     "id": "901a6c4f-f88c-474e-a6ed-24acb3cf78e3",
                     "name": "LATE",
                     "airportConditions": "ARRIVALS EXPECT ILS RWY 36R. DEPARTING RWY 18L.",
-                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "template": "AUSTIN BERGSTROM INTL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
