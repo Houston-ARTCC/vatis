@@ -2,7 +2,7 @@
     "name": "Polk RAPCON",
     "id": "6bdc9f35-aaab-4fc3-b42e-73f181a7272c",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/POE.json",
-    "updateSerial": 2025021900,
+    "updateSerial": 2025061000,
     "composites": [
         {
             "id": "b9f38b11-9e8c-4b49-bbf9-027fca9425cb",
