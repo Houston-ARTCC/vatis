@@ -870,10 +870,16 @@
             "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
-                    "ordinal": 1,
+                    "ordinal": 2,
                     "text": "HAZD WX INFO FOR AUS AREA AVBL FM ATC.",
                     "enabled": false
-                }
+                },
+                {
+                    "text": "DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
+                    "ordinal": 1,
+                    "enabled": true
+			  }
+			]
             ],
             "atisFormat": {
                 "observationTime": {
