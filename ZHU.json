@@ -2,7 +2,7 @@
     "name": "ZHU Consolidated",
     "id": "b449ba1a-0266-4db8-93bc-acce3f73e2f4",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/ZHU.json",
-    "updateSerial": 2025061005,
+    "updateSerial": 2025062000,
     "composites": [
         {
             "id": "8fdadc87-2035-4398-9ce8-826f0133d9fd",
@@ -878,7 +878,7 @@
                     "text": "DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "ordinal": 1,
                     "enabled": true
-			  }
+                }
             ],
             "atisFormat": {
                 "observationTime": {
