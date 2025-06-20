@@ -1497,7 +1497,7 @@
                 {
                     "id": "d1bdd867-7e7b-49a3-b05b-740d8ff4dff6",
                     "name": "SOUTH ILS",
-                    "airportConditions": "ILS RWY 17R APCH IN USE. LDG AND DEPTG RWY 17R, RWY 17L. RWY 13 AVBL ON REQUEST.",
+                    "airportConditions": "ILS RWY 18R APCH IN USE. LDG AND DEPTG RWY 18R, RWY 18L. RWY 13 AVBL ON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -1507,7 +1507,7 @@
                 {
                     "id": "d7870b94-6694-412a-98a6-330687993d4a",
                     "name": "SOUTH VISUAL",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 17R, RWY 17L. RWY 13 AVBL ON REQUEST.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 18R, RWY 18L. RWY 13 AVBL ON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -1517,7 +1517,7 @@
                 {
                     "id": "66e02fea-5596-4dfe-8b28-bddb2264045e",
                     "name": "NORTH RNAV",
-                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 35R, RWY 35L. RWY 31 AVBL ON REQUEST.",
+                    "airportConditions": "@RNAV APCHS IN USE. LDG AND DEPTG RWY 36R, RWY 36L. RWY 31 AVBL ON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
@@ -1527,7 +1527,7 @@
                 {
                     "id": "3b8a326b-9fb0-4e95-8905-8e3d7f7cec06",
                     "name": "NORTH VISUAL",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 35R, RWY 35L. RWY 31 AVBL ON REQUEST.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 36R, RWY 36L. RWY 31 AVBL ON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
