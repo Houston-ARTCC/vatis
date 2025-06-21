@@ -404,7 +404,7 @@
             "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
-                    "text": "DEPTG ACFT AT BARBARA JORDAN TERMINAL CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
+                    "text": "DEPTG ACFT AT MAIN AND SOUTH TERM CTC RAMP FOR PUSH. ALL OTHERS CTC GROUND.",
                     "ordinal": 1,
                     "enabled": true
                 }
