@@ -2,7 +2,7 @@
     "name": "Baton Rouge (BTR)",
     "id": "21d3fe4b-373f-419d-9a3f-55ab4962d049",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/BTR.json",
-    "updateSerial": 2025090600,
+    "updateSerial": 2025090601,
     "composites": [
         {
             "id": "1ef36235-6b20-4906-851d-13f47b9ebd5c",
