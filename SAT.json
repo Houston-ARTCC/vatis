@@ -954,40 +954,90 @@
                 {
                     "id": "8b50b130-3299-4e9b-9de7-86c51108edf5",
                     "name": "EAST VMC",
-                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 9, RWY 14.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 10, RWY 14.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "STINSON MUNICIPAL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -964,7 +964,7 @@
+  
                         "enabled": false
                     }
                 },
                 {
                     "id": "69573531-3cde-4b15-830c-e2f0c3daab23",
                     "name": "WEST VMC",
-                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 27, RWY 32.",
+                    "airportConditions": "VIS APPRS IN USE. LDG AND DEPTG RWY 28, RWY 32.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "STINSON MUNICIPAL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -974,7 +974,7 @@
+  
                         "enabled": false
                     }
                 },
                 {
                     "id": "a4132fb4-1bf2-40fd-bb70-bdb87035a401",
                     "name": "EAST IMC",
-                    "airportConditions": "@RNAV AND *VOR CIRCLING INSTRUMENT APPROACHES TO RWY 9, RWY 14 IN USE. DEPTG RWY 9, RWY 14. ",
+                    "airportConditions": "@RNAV AND *VOR CIRCLING INSTRUMENT APPROACHES TO RWY 10, RWY 14 IN USE. DEPTG RWY 10, RWY 14. ",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "STINSON MUNICIPAL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -984,7 +984,7 @@
+  
                         "enabled": false
                     }
                 },
                 {
                     "id": "c4df414b-74a4-4c86-aa8e-fdeb2e172d90",
                     "name": "WEST IMC",
-                    "airportConditions": "@RNAV AND *VOR RWY 32 APPROACH IN USE. DEPTG RWY 27, RWY 32.",
+                    "airportConditions": "@RNAV AND *VOR RWY 32 APPROACH IN USE. DEPTG RWY 28, RWY 32.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "STINSON MUNICIPAL ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -1506,4 +1506,4 @@
+  
                         "enabled": false
                     }
                 }
