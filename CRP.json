@@ -3,7 +3,7 @@
     "name": "Corpus/Valley TRACON",
     "id": "a8e30163-7788-4a32-869f-b04101352448",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/CRP.json",
-    "updateSerial": 2025090601,
+    "updateSerial": 2025092300,
     "stations": [
         {
             "id": "20660354-ff66-43e2-89a6-63c8a7ee77a9",
@@ -1916,7 +1916,7 @@
                 {
                     "id": "cf6a5e9e-2645-4c1f-b974-a0d513384107",
                     "name": "NORTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 31, RWY 36.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 32, RWY 36.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1926,7 +1926,7 @@
                 {
                     "id": "a4e16ea4-0829-4d41-9441-1b6ed040da9c",
                     "name": "SOUTH VMC",
-                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 13, RWY 18.",
+                    "airportConditions": "VIS APCHS IN USE. LDG AND DEPTG RWY 14, RWY 18.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1936,7 +1936,7 @@
                 {
                     "id": "d50eabd6-be60-49cc-8b3d-b7f32f71f40a",
                     "name": "NORTH IMC",
-                    "airportConditions": "ILS AND @RNAV APCHS IN USE. LDG AND DEPTG RWY 31. VOR APCH AVBL UPON REQUEST.",
+                    "airportConditions": "ILS AND @RNAV APCHS IN USE. LDG AND DEPTG RWY 32. VOR APCH AVBL UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1946,7 +1946,7 @@
                 {
                     "id": "68d440d6-5f1d-4a22-8efa-5a6c193d67dd",
                     "name": "SOUTH IMC",
-                    "airportConditions": "ILS AND @RNAV APCHS IN USE. LDG AND DEPTG RWY 13. VOR APCH AVBL UPON REQUEST.",
+                    "airportConditions": "ILS AND @RNAV APCHS IN USE. LDG AND DEPTG RWY 14. VOR APCH AVBL UPON REQUEST.",
                     "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
