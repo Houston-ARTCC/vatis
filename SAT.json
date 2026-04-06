@@ -26,8 +26,8 @@
             "presets": [
                 {
                     "id": "19984f80-c82d-4371-9e60-1946a21b8d91",
-                    "name": "SOUTH ILS",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 13R. @RNAV APPROACHES AVAILABLE ON REQUEST. DEPTG RWY 4, RWY 13R.",
+                    "name": "13 Flow ILS",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 13R. @RNAV APPROACHES AVAILABLE ON REQUEST. DEPTG RWY 13R.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -36,8 +36,8 @@
                 },
                 {
                     "id": "5141d6cb-25fe-48c6-9bae-8ad9eef845f5",
-                    "name": "SOUTH VISUALS",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPRS RWY 13R, RWY 13L. @SIMULAPP IN USE. DEPTG RWY 4, RWY 13R.",
+                    "name": "13 Flow VISUALS",
+                    "airportConditions": "ARRIVALS EXPECT VISUAL APPRS RWY 13R, RWY 13L. @SIMULAPP IN USE. DEPTG RWY 13R.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -46,8 +46,8 @@
                 },
                 {
                     "id": "9c5d9946-7309-4931-b8db-92236b828adc",
-                    "name": "NORTH ILS",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 31L, ILS RWY 4. @RNAV APPRS AVAILABLE ON REQUEST. DEPTG RWY 31L, RWY 31R. RWY 31L DEPS EXPECT INT N DEPARTURE.",
+                    "name": "31 Flow ILS",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 31L. @RNAV APPRS AVAILABLE ON REQUEST. DEPTG RWY 31L, RWY 31R. RWY 31L DEPS EXPECT INT N DEPARTURE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -56,8 +56,8 @@
                 },
                 {
                     "id": "757b0db5-f36c-42b8-b746-98983ffd71d3",
-                    "name": "NORTH VISUALS",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPR RWY 31L, RWY 4. DEPTG RWY 31L, RWY 31R. RWY 31L DEPS EXPECT INT N DEPARTURE.",
+                    "name": "31 Flow VISUALS",
+                    "airportConditions": "ARRIVALS EXPECT VISUAL APPR RWY 31L. DEPTG RWY 31L, RWY 31R. RWY 31L DEPS EXPECT INT N DEPARTURE.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -66,8 +66,8 @@
                 },
                 {
                     "id": "d7efcd30-6dd8-47e6-bec1-c3002912f78c",
-                    "name": "EAST ILS",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 13R. @RNAV APPRS AVAILABLE ON REQUEST. DEPTG RWY 13R.",
+                    "name": "4 Flow ILS",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 4. @RNAV APPRS AVAILABLE ON REQUEST. DEPTG RWY 4.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -76,8 +76,8 @@
                 },
                 {
                     "id": "cfffc7fe-fcfd-4bf3-b49d-4100935184e3",
-                    "name": "EAST VISUALS",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPR RWY 13R, RWY 13L. @SIMULAPP IN USE. DEPTG RWY 13R.",
+                    "name": "4 Flow VISUALS",
+                    "airportConditions": "ARRIVALS EXPECT VISUAL APPR RWY 4. @SIMULAPP IN USE. DEPTG RWY 4.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -86,8 +86,8 @@
                 },
                 {
                     "id": "39f1a4f3-2a08-41f4-90b6-8c5a9b440b58",
-                    "name": "WEST ILS",
-                    "airportConditions": "ARRIVALS EXPECT ILS RWY 31L. @RNAV APPRS AVAILABLE ON REQUEST. DEPTG RWY 31L AT INT N.",
+                    "name": "22 Flow ILS",
+                    "airportConditions": "ARRIVALS EXPECT ILS RWY 22. @RNAV APPRS AVAILABLE ON REQUEST. DEPTG RWY 22.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
@@ -96,8 +96,8 @@
                 },
                 {
                     "id": "bb5f2f6f-37cf-4bf2-b691-d441f570d3a7",
-                    "name": "WEST VISUALS",
-                    "airportConditions": "ARRIVALS EXPECT VISUAL APPRS RWY 31L, RWY 31R. @SIMULAPP IN USE. DEPTG RWY 31L AT INT N.",
+                    "name": "22 Flow VISUALS",
+                    "airportConditions": "ARRIVALS EXPECT VISUAL APPRS RWY 22. @SIMULAPP IN USE. DEPTG RWY 22.",
                     "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
                     "externalGenerator": {
