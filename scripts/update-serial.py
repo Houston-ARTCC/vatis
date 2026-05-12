@@ -1,24 +1,39 @@
 import json
-import glob
 import os
+import sys
 from datetime import datetime
 
 
-parent_directory = os.path.join(os.getcwd(), "..")
-files_in_parent = os.listdir(parent_directory)
-json_files = [f for f in files_in_parent if f.endswith('.json')]
-current_date = str(datetime.now().strftime('%Y%m%d'))
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+current_date = datetime.now().strftime("%Y%m%d")
 
+if len(sys.argv) > 1:
+    # Accept paths relative to repo root and only keep root-level JSON files.
+    candidate_files = [os.path.normpath(path) for path in sys.argv[1:]]
+    json_files = [
+        path
+        for path in candidate_files
+        if path.endswith(".json")
+        and os.path.dirname(path) in ("", ".")
+        and os.path.isfile(os.path.join(ROOT_DIR, path))
+    ]
+else:
+    json_files = [
+        file_name
+        for file_name in os.listdir(ROOT_DIR)
+        if file_name.endswith(".json")
+    ]
 
 for json_file_name in json_files:
-    json_file = "../" + json_file_name
-    with open(json_file, 'r') as file:
+    json_file = os.path.join(ROOT_DIR, json_file_name)
+    with open(json_file, "r", encoding="utf-8") as file:
         print(f"Working on {json_file}")
         #Parse JSON
         try:
             data = json.load(file)
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON in {json_file}: {e}")
+            continue
 
     # Set initial release to 0
     release_number = 0
@@ -49,7 +64,7 @@ for json_file_name in json_files:
     print(f"new serial is {release_serial_int}")
     data["updateSerial"] = release_serial_int
 
-    with open(json_file, 'w') as file:
+    with open(json_file, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
         print(f"wrote {json_file}")
 
