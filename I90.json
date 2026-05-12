@@ -543,7 +543,7 @@
             "airportConditionDefinitions": [],
           "notamDefinitions": [
             {
-              "text": "ZHU LIVE RAMP FREQUENCIES: ALL NORTH GATES CALL 131.30 FOR PUSH. ALL SOUTH GATES CALL 121.62 FOR PUSH. OTHERS CONTACT GROUND FOR PUSH.",
+              "text": "ZHU LIVE RAMP FREQUENCIES: ALL NORTH GATES CALL 131.30 FOR PUSH. ALL SOUTH GATES CALL 121.62 FOR PUSH. ALL OTHERS CONTACT METERING 119.95.",
               "ordinal": 1,
               "enabled": true
             },
