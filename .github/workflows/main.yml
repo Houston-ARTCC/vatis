@@ -1,6 +1,9 @@
 name: Update Serial Number
 
-on: pull_request
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   run-python-script:
@@ -10,24 +13,39 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5 
         with:
           python-version: '3.12'
+
+      - name: Determine changed root-level JSON files
+        id: changed_json
+        run: |
+          CHANGED_FILES=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" | grep -E '^[^/]+\.json$' || true)
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "has_files=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_files=true" >> "$GITHUB_OUTPUT"
+            echo "files<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$CHANGED_FILES" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+          fi
       
       - name: Run Python script
+        if: steps.changed_json.outputs.has_files == 'true'
         run: |
-          cd scripts
-          python update-serial.py
-          cd ..
+          python scripts/update-serial.py ${{ steps.changed_json.outputs.files }}
       
       - name: Commit files with new serial
+        if: steps.changed_json.outputs.has_files == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add ${{ steps.changed_json.outputs.files }}
+          if git diff --cached --quiet; then
+            echo "No serial changes to commit."
+            exit 0
+          fi
           git commit -m "GH Action Serial Update"
           git push
