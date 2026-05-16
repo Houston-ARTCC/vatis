@@ -546,16 +546,6 @@
               "text": "ZHU LIVE RAMP FREQUENCIES: ALL NORTH GATES CALL 131.30 FOR PUSH. ALL SOUTH GATES CALL 121.62 FOR PUSH. ALL OTHERS CONTACT METERING 119.95.",
               "ordinal": 1,
               "enabled": true
-            },
-            {
-              "text": "DEP RWY SUBJECT TO CHANGE. BRIEF RWY 15L AND RWY 15R.",
-              "ordinal": 2,
-              "enabled": true
-            },
-            {
-              "text": "DEP RWY SUBJECT TO CHANGE. BRIEF RWY 33R AND RWY 33L.",
-              "ordinal": 3,
-              "enabled": false
             }
           ],
             "atisFormat": {
