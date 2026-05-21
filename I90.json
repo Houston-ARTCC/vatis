@@ -2,7 +2,7 @@
     "name": "I90 TRACON",
     "id": "939efdda-1bd6-4e5e-9532-b58133d23db6",
     "updateUrl": "https://raw.githubusercontent.com/Houston-ARTCC/vatis/refs/heads/main/I90.json",
-    "updateSerial": 2026051600,
+    "updateSerial": 2026052100,
     "composites": [
         {
             "id": "8fdadc87-2035-4398-9ce8-826f0133d9fd",
@@ -545,7 +545,7 @@
             {
               "text": "ZHU LIVE RAMP FREQUENCIES: ALL NORTH GATES CALL 131.30 FOR PUSH. ALL SOUTH GATES CALL 121.62 FOR PUSH. ALL OTHERS CONTACT METERING 119.95.",
               "ordinal": 1,
-              "enabled": true
+              "enabled": false
             }
           ],
             "atisFormat": {
