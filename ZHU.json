@@ -1736,7 +1736,7 @@
                     "id": "ddeda395-cc8d-4570-868a-f1f67a901d77",
                     "name": "NORTH VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LDG AND DEPTG RWY 32, RWY 36.",
-                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. @SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -1746,7 +1746,7 @@
                     "id": "917175a6-fc47-4fb6-ac3e-be1e9bf091bb",
                     "name": "SOUTH VMC",
                     "airportConditions": "VISUAL APPRS IN USE. LDG AND DEPTG RWY 14, RWY 18.",
-                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "VFR DEPARTURES ADVS ACFT TYPE AND DRCTN OF FLT ON INITIAL CONTACT. @SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "externalGenerator": {
                         "enabled": false
@@ -1756,7 +1756,7 @@
                     "id": "1bc834f9-77cd-4f1a-b220-c27a3b8419ce",
                     "name": "NORTH IMC",
                     "airportConditions": "ILS *Z RWY 32 AND @RNAV RWY 36 IN USE. DEPTG RWY 32, RWY 36.",
-                    "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
@@ -1766,7 +1766,7 @@
                     "id": "e350dfa4-d61c-423c-bc7e-2f67ce1a1592",
                     "name": "SOUTH IMC",
                     "airportConditions": "ILS *Z RWY 14 AND @RNAV RWY 18 IN USE. DEPTG RWY 14, RWY 18.",
-                    "notams": "READBACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "notams": "@SAID IN USE, SQUAWK ALTITUDE ON ALL SURFACE AREAS. READBACK ALL HOLD SHORT INSTRUCTIONS.",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
                         "enabled": false
