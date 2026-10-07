@@ -1,28 +1,32 @@
 name: Update Serial Number
 
 on:
-  push:
+  pull_request:
     branches:
       - main
+    types: [opened, synchronize, reopened]
 
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+      pull-requests: write
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5 
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Determine changed root-level JSON files
         id: changed_json
         run: |
-          CHANGED_FILES=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" | grep -E '^[^/]+\.json$' || true)
+          CHANGED_FILES=$(git diff origin/${{ github.base_ref }} HEAD --name-only | grep -E '^[^/]+\.json$' || true)
           if [ -z "$CHANGED_FILES" ]; then
             echo "has_files=false" >> "$GITHUB_OUTPUT"
           else
@@ -31,12 +35,12 @@ jobs:
             echo "$CHANGED_FILES" >> "$GITHUB_OUTPUT"
             echo "EOF" >> "$GITHUB_OUTPUT"
           fi
-      
+
       - name: Run Python script
         if: steps.changed_json.outputs.has_files == 'true'
         run: |
           python scripts/update-serial.py ${{ steps.changed_json.outputs.files }}
-      
+
       - name: Commit files with new serial
         if: steps.changed_json.outputs.has_files == 'true'
         run: |
@@ -48,4 +52,4 @@ jobs:
             exit 0
           fi
           git commit -m "GH Action Serial Update"
-          git push
+          git push origin ${{ github.head_ref }}
