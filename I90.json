@@ -181,11 +181,6 @@
             ],
             "airportConditionDefinitions": [],
             "notamDefinitions": [
-                {
-                    "text": "FLY2HIGH GIVEAWAY - HTTPS://TINYURL.COM/FLY2HIGHHOU",
-                    "ordinal": 1,
-                    "enabled": true
-                }
             ],
             "atisFormat": {
                 "observationTime": {
